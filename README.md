@@ -11,9 +11,12 @@ accepted.
 ## Installing
 
 1. Your PS Vita needs homebrew enabled (HENkaku or Ensō) and VitaShell.
-2. Download `voidtrader-vX.Y.Z.vpk` from the latest release.
-3. Copy it to your Vita (for example over USB or FTP with VitaShell) and install it from VitaShell.
-4. Void Trader appears on the home screen. Your saves are kept in `ux0:data/` and survive updates.
+2. The game needs Sony's shader compiler, `libshacccg.suprx`, in `ur0:data/` (vitaGL compiles its
+   shaders on the Vita). Most vitaGL games need it, so you may have it already; if not, extract it
+   once with a tool such as ShaRKF00D. Without it the game won't start.
+3. Download `voidtrader-vX.Y.Z.vpk` from the latest release.
+4. Copy it to your Vita (for example over USB or FTP with VitaShell) and install it from VitaShell.
+5. Void Trader appears on the home screen. Your saves are kept in `ux0:data/` and survive updates.
 
 The Pilot's Manual (`VoidTrader-Manual-vX.Y.Z.pdf`) is on the same release page, and the game has
 a Pilot's Handbook in its pause menu.
