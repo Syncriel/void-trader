@@ -1,0 +1,26 @@
+Void Trader
+Copyright (c) 2026 Syncriel. All rights reserved.
+
+Void Trader is free to download. You may:
+
+  - download it free of charge and play it on your own PS Vita;
+  - share the unmodified release files (the .vpk, the manual and the relink kit) free of charge,
+    as long as this notice goes with them.
+
+The game's source code is not published. Apart from the permissions above and below, no rights
+in the game are granted.
+
+Third-party libraries. The game contains libraries under their own licences, listed in
+THIRD_PARTY_NOTICES.md with their texts in licenses/. Nothing in this licence limits your rights
+under those licences. In particular, for the libraries under the GNU Lesser General Public
+License (vitaGL, vitaShaRK, SceShaccCgExt), you may modify the game for your own use, relink it
+against modified versions of those libraries using the relink kit published with each release,
+and reverse engineer the game to debug such modifications.
+
+Trademarks. Void Trader is an unofficial fan homage to Elite and Frontier. Elite and Frontier are
+trademarks of Frontier Developments plc; Void Trader is not affiliated with or endorsed by
+Frontier Developments. PlayStation and PS Vita are trademarks of Sony Interactive Entertainment
+Inc.; Void Trader is unofficial homebrew, not affiliated with or endorsed by Sony.
+
+THE GAME IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL
+THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE GAME.
