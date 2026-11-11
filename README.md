@@ -16,6 +16,10 @@ accepted.
    once with a tool such as ShaRKF00D. Without it the game won't start.
 3. Download `voidtrader-vX.Y.Z.vpk` from the latest release.
 4. Copy it to your Vita (for example over USB or FTP with VitaShell) and install it from VitaShell.
+   VitaShell will warn that "this package requests extended permissions". That is expected: the
+   game is built as an "unsafe" homebrew, like most vitaGL games, because it loads the shader
+   compiler from `ur0:data/` in step 2. It doesn't use the extra access for anything else, and it
+   only writes its own saves and settings. Press Cross (Yes) to continue.
 5. Void Trader appears on the home screen. Your saves are kept in `ux0:data/` and survive updates.
 
 The Pilot's Manual (`VoidTrader-Manual-vX.Y.Z.pdf`) is on the same release page, and the game has
