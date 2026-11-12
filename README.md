@@ -6,6 +6,10 @@ spinning stations. An unofficial fan homage to Elite and Frontier.
 
 ![Docking at a Halo orbital](images/docking-halo.png)
 
+**Watch the trailer:** [Void Trader on YouTube](https://youtu.be/d2UAO6ZqYh0) (3:36): the living galaxy, a war won by missions, combat, mining and all three graphics modes.
+
+[![Void Trader trailer](images/trailer.jpg)](https://youtu.be/d2UAO6ZqYh0)
+
 **This repository holds releases only.** Download the game from the
 [latest release](../../releases/latest), or with VitaDB Downloader on your Vita. The game's source code
 is not published, and pull requests aren't accepted.

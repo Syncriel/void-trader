@@ -1,0 +1,65 @@
+name: Bug report
+description: Something in Void Trader isn't working as it should
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. One bug per report, please.
+        Check the [open issues](https://github.com/Syncriel/void-trader/issues) first in case someone has already reported it.
+  - type: input
+    id: version
+    attributes:
+      label: Version and build
+      description: Shown at the bottom of the title screen, e.g. v1.5.6 (build 255).
+      placeholder: v1.5.6 (build 255)
+    validations:
+      required: true
+  - type: dropdown
+    id: graphics
+    attributes:
+      label: Graphics mode
+      description: Pause menu, Settings tab, Graphics.
+      options:
+        - Classic
+        - Enhanced
+        - Ultra
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: Where you were (star system, station, screen) and what you did, step by step.
+      placeholder: |
+        1. Docked at Sol Orbital
+        2. Opened the bulletin board
+        3. ...
+    validations:
+      required: false
+  - type: dropdown
+    id: save
+    attributes:
+      label: Did it affect your save?
+      options:
+        - "No"
+        - "Yes - progress lost or a save won't load"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots or photos (optional)
+      description: A photo of the Vita's screen helps a lot. Drag images into this box.
+    validations:
+      required: false

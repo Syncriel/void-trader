@@ -1,0 +1,38 @@
+name: Feature request
+description: An idea for something new in Void Trader, or a change to something that's there
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Check the [roadmap](https://github.com/Syncriel/void-trader#roadmap) and the [open issues](https://github.com/Syncriel/void-trader/issues) first:
+        it may already be planned or suggested, in which case a thumbs-up on that issue helps.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What would it add to the game, or what problem would it solve for you?
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Which part of the game does it touch? (optional)
+      placeholder: e.g. trading, combat, the galaxy map, missions, the cockpit
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version you're playing (optional)
+      placeholder: v1.5.6 (build 255)
+    validations:
+      required: false
