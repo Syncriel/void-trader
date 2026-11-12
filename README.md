@@ -42,6 +42,15 @@ play-testing and players' feedback. Each release lists its changes on the [relea
 
 ![The Void Trader roadmap: released, in testing, now, next and later](images/roadmap.png)
 
+## Report a bug or suggest a feature
+
+Found a bug, or have an idea? Open an issue with one of the two forms:
+
+- [Report a bug](../../issues/new?template=bug_report.yml): include the version and build from the title screen.
+- [Suggest a feature](../../issues/new?template=feature_request.yml): check the roadmap above first.
+
+You need a GitHub account, and issues are public. New reports are read every week. Thanks for helping.
+
 ## Installing
 
 1. Your PS Vita needs homebrew enabled (HENkaku or Ensō) and VitaShell.
