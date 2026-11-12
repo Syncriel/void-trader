@@ -4,9 +4,32 @@ A space trading game for the PS Vita: trade between real nearby stars, fight pir
 asteroids, take missions for the powers and factions of a living galaxy, and dock by hand with
 spinning stations. An unofficial fan homage to Elite and Frontier.
 
+![Docking at a Halo orbital](images/docking-halo.png)
+
 **This repository holds releases only.** Download the game from the
-[Releases](../../releases) page. The game's source code is not published, and pull requests aren't
-accepted.
+[latest release](../../releases/latest), or with VitaDB Downloader on your Vita. The game's source code
+is not published, and pull requests aren't accepted.
+
+## What's in the game
+
+- The 100 nearest real star systems, each with its own economy, planets, gas giants, asteroid belts and
+  six kinds of station, and a 3D galaxy map with filters, trade routes, a star finder and favourites.
+- A living galaxy: three rival powers and the independents, with factions in every system that fight
+  wars, hold elections, boom, bust and expand week by week. Your missions and trade change who rules.
+- Trading, a bulletin board of missions (deliveries, couriers, passengers, bounty hunts), smuggling,
+  reputation with every faction, and a news feed of what's happening near you.
+- Newtonian flight, docking by hand (or with a docking computer), lasers, an autocannon, missiles and
+  chaff, power management, ranked pirates and police, interdictions, and mining with lasers and charges.
+- 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
+- Three graphics modes: Classic wireframe, Enhanced, and Ultra with painted ships and stations, docking
+  hangars and planet surfaces down to low orbit.
+
+| | |
+|---|---|
+| ![The target hologram in a fight](images/target-hologram.png) | ![Low orbit over an earth-like world](images/low-orbit.png) |
+| ![A docking hangar](images/hangar.png) | ![The galaxy map's POWERS tab](images/galaxy-powers.png) |
+
+![A station market](images/market.png)
 
 ## Installing
 
