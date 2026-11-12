@@ -31,6 +31,13 @@ is not published, and pull requests aren't accepted.
 
 ![A station market](images/market.png)
 
+## Roadmap
+
+What's being worked on now, what's next and what's further off. There are no dates: plans change with
+play-testing and players' feedback. Each release lists its changes on the [releases page](../../releases).
+
+![The Void Trader roadmap: released, in testing, now, next and later](images/roadmap.png)
+
 ## Installing
 
 1. Your PS Vita needs homebrew enabled (HENkaku or Ensō) and VitaShell.
