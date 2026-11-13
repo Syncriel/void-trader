@@ -49,6 +49,9 @@ Found a bug, or have an idea? Open an issue with one of the two forms:
 - [Report a bug](../../issues/new?template=bug_report.yml): include the version and build from the title screen.
 - [Suggest a feature](../../issues/new?template=feature_request.yml): check the roadmap above first.
 
+From v1.5.8 you can also do it from the game: the pause menu's REPORT A BUG OR IDEA button shows a QR
+code that opens the right form on your phone, with the version already filled in.
+
 You need a GitHub account, and issues are public. New reports are read every week. Thanks for helping.
 
 ## Installing

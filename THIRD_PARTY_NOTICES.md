@@ -14,8 +14,11 @@ libraries below, statically linked. Their full licence texts are in the `license
 | SceShaccCgExt | 1.0.1 | LGPL-2.1 | bythos14 | https://github.com/bythos14/SceShaccCgExt |
 | math-neon (libmathneon) | commit 0faab81 | MIT | Lachlan Tychsen-Smith | https://github.com/Rinnegatamante/math-neon |
 | taiHEN (stubs) | 0.11 | MIT | Yifan Lu | https://github.com/yifanlu/taiHEN |
+| QR Code generator library (C) | commit bcfe1b0 | MIT | Project Nayuki | https://github.com/nayuki/QR-Code-generator |
 
-These are the versions in the VitaSDK package set the releases are built with. Each release's
+The QR Code generator (`src/qrcodegen.c`, `src/qrcodegen.h`, unchanged) is compiled into the game
+itself, in both the Vita and desktop builds; it draws the pause menu's "Report a bug or idea" code.
+The others are the versions in the VitaSDK package set the releases are built with. Each release's
 relink kit lists the exact versions for that release in `library-versions.txt`, read from
 VitaSDK's package manager by the build itself.
 
