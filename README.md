@@ -20,6 +20,8 @@ is not published, and pull requests aren't accepted.
   six kinds of station, and a 3D galaxy map with filters, trade routes, a star finder and favourites.
 - A living galaxy: three rival powers and the independents, with factions in every system that fight
   wars, hold elections, boom, bust and expand week by week. Your missions and trade change who rules.
+- Conflict zones: in a system at war, fly to its battles, choose a side, fight alongside its ships and
+  earn combat bonds; your wins move the war, and the battles you skip are fought without you.
 - Trading, a bulletin board of missions (deliveries, couriers, passengers, bounty hunts), smuggling,
   reputation with every faction, and a news feed of what's happening near you.
 - Newtonian flight, docking by hand (or with a docking computer), lasers, an autocannon, missiles and
@@ -33,7 +35,20 @@ is not published, and pull requests aren't accepted.
 | ![The target hologram in a fight](images/target-hologram.png) | ![Low orbit over an earth-like world](images/low-orbit.png) |
 | ![A docking hangar](images/hangar.png) | ![The galaxy map's POWERS tab](images/galaxy-powers.png) |
 
+![A HIGH intensity conflict zone](images/conflict-zone.png)
+
 ![A station market](images/market.png)
+
+## The living galaxy
+
+The galaxy doesn't wait for you. Powers and factions compete for every system, week after week, and what
+you do (the jobs you take, the goods you sell, the wars you fight in) decides which way it goes.
+
+![A galaxy that lives](images/living-galaxy-1-a-galaxy-that-lives.jpg)
+![Reading the galaxy: which screen tells you what](images/living-galaxy-2-reading-the-galaxy.jpg)
+![Turn the tide: missions, trade, bounties and crime](images/living-galaxy-3-turn-the-tide.jpg)
+![War: conflict zones, from finding a war to holding the zone](images/living-galaxy-4-war.jpg)
+![Defend and hold: frontiers, expansion and standing](images/living-galaxy-5-defend-and-hold.jpg)
 
 ## Roadmap
 
