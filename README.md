@@ -86,6 +86,15 @@ You need a GitHub account, and issues are public. New reports are read every wee
 The Pilot's Manual (`VoidTrader-Manual-vX.Y.Z.pdf`) is on the same release page, and the game has
 a Pilot's Handbook in its pause menu.
 
+### Your saves and backups
+
+Saves and settings are in `ux0:data/VoidTrader/VoidTrader/` (`save.dat`, `save2.dat`, `save3.dat`
+for the three slots, and `settings.dat`). From v1.6.1 the title screen keeps backups for each slot
+there too: press R (or tap BACKUPS) to back up or restore one. The game also backs up a commander
+by itself before a new version first saves over it, and once a day. Each slot keeps at most seven
+backups (newer ones replace older ones), so they never pile up; to remove one, delete its
+`slotN_backupK.dat` file with VitaShell. For extra safety you can copy the whole folder to your PC.
+
 ## Made with AI
 
 Void Trader is written with an AI assistant (Claude, by Anthropic): it is "vibecoded". Created by
