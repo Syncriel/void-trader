@@ -22,6 +22,9 @@ is not published, and pull requests aren't accepted.
   wars, hold elections, boom, bust and expand week by week. Your missions and trade change who rules.
 - Conflict zones: in a system at war, fly to its battles, choose a side, fight alongside its ships and
   earn combat bonds; your wins move the war, and the battles you skip are fought without you.
+- Capital ships: in the biggest battles of a war between the powers, a 1,600 m battlecruiser,
+  dreadnought or carrier holds the line or jumps in mid-fight, launching its side's ships; sometimes
+  both sides bring one and they trade broadsides.
 - Trading, a bulletin board of missions (deliveries, couriers, passengers, bounty hunts), smuggling,
   reputation with every faction, and a news feed of what's happening near you.
 - Newtonian flight, docking by hand (or with a docking computer), lasers, an autocannon, missiles and
@@ -36,6 +39,8 @@ is not published, and pull requests aren't accepted.
 | ![A docking hangar](images/hangar.png) | ![The galaxy map's POWERS tab](images/galaxy-powers.png) |
 
 ![A HIGH intensity conflict zone](images/conflict-zone.png)
+
+![Two capital ships face off over a battle](images/capital-ships.png)
 
 ![A station market](images/market.png)
 
