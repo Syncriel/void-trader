@@ -63,3 +63,11 @@ body:
       description: A photo of the Vita's screen helps a lot. Drag images into this box.
     validations:
       required: false
+  - type: checkboxes
+    id: credit
+    attributes:
+      label: Credit in the release notes
+      description: When we fix or build something you raised, we thank you by your GitHub username in that release's notes.
+      options:
+        - label: Please don't name me in the release notes
+          required: false
