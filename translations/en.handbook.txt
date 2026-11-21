@@ -365,6 +365,7 @@ Press Start in flight or at a station for the pause menu. Each tab has two colum
 - Sound volume, Sensitivity and Invert pitch.
 - Power control: hold the front corner or the rear pad's upper left to set power.
 - Language: the language of the game's text, for the whole game: English, German, French, Spanish, Italian or Brazilian Portuguese. The translations marked (AI) or (KI) are first drafts made with AI; players help correct them on GitHub. A new player is asked once, on the title screen.
+- Copy for editing: puts the chosen language's file in your save folder (ux0:data/VoidTrader/VoidTrader/lang/) so you can correct it on your Vita; the game then reads your copy, and the Language row shows (edited). Choose the language again to see your changes. Remove my copy deletes it and goes back to the game's own file. How to send corrections: the translation guide on the game's GitHub page.
 - Prompts: FULL adds advice to the prompts above the dash (how to dock by hand, how to escape an interdiction) and the power keys while you hold the power control; SHORT keeps just what each button does.
 - FPS counter, the Pilot's Handbook, and Save, Save and return to title (to pick another commander; press Cross twice), Save and quit or Quit.
 

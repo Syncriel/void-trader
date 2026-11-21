@@ -36,7 +36,8 @@ is not published, and pull requests aren't accepted.
 - 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
 - Six languages (from v1.6.8): English, plus German, French, Spanish, Italian and Brazilian Portuguese
   as first drafts made with AI. Some lines will be clumsy or wrong: corrections and new languages are very
-  welcome, see [Translating Void Trader](translations/).
+  welcome, see [Translating Void Trader](translations/). From v1.6.9, Settings > Copy for editing puts a
+  language's file in your save folder so you can try your corrections on your Vita.
 - Three graphics modes: Classic wireframe, Enhanced, and Ultra with painted ships and stations, docking
   hangars and planet surfaces down to low orbit.
 
