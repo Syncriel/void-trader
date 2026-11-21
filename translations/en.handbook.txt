@@ -1,0 +1,376 @@
+; Void Trader's Pilot's Handbook (GUIDE pages), the template for a translation.
+; Copy this file to <code>.handbook.txt (e.g. fr.handbook.txt, beside fr.json) and translate the text.
+; Keep the marks: "# Topic" starts a page, "## Heading" a section, a blank line ends a paragraph, "- " starts a
+; bullet. Lines starting with ";" are notes. [img ...] lines are for the printed manual only (leave them).
+; The game wraps the text itself. Use only letters the game's font has (Western European, as in the .json).
+
+# Getting started
+
+Void Trader is a space trading game set among the hundred real stars nearest the Sun. You start in Sol, docked at the orbital station, with a Sparrow light trader, a little money and a hold to fill. Where you go from there is up to you: trade, hunt pirates, mine asteroids, take missions or explore.
+
+## Your first trip
+
+- At the station, open the Market and buy goods that are cheap here. Computers from Sol to Alpha Centauri is a good first run.
+- Press Triangle for the galaxy map, pick a star in range and press Cross to plot a course.
+- Press Circle to launch. You fly out through the docking tunnel.
+- Press Triangle in flight: the galaxy map opens on your course. Press Cross to jump.
+- You arrive near the star. Point at the station's yellow brackets and press Cross to warp there.
+- The warp drive drops you out about 15 km from the station. Fly into the docking slot below 100 m/s, or press Cross within 2 km of its hull if your ship has a docking computer.
+- Sell your cargo, refuel and repair, and plan the next run.
+
+The game saves itself every time you dock. The Pilot's Handbook is always in the pause menu: press Start, then choose it on the Settings tab.
+
+## Backups and what's new
+
+Press R on the title screen (or tap BACKUPS) to see the chosen slot's backups. BACK UP NOW copies your save; the three latest of your own are kept. The game also makes one by itself before a new version first saves over your commander, and one each day you play. Choose a backup and press Cross twice to restore it: your save as it was is kept as "Before a restore", so you can change your mind. The files sit beside your saves in ux0:data/VoidTrader/VoidTrader/. After an update the title shows WHAT'S NEW once; Select (or the WHAT'S NEW button) opens it any time.
+
+[img title.png | The title screen, with three save slots]
+
+# Flying
+
+Your ship flies by Newton's laws: it keeps moving until you push it the other way. R thrusts forwards and L brakes, then reverses (your speed shows a minus sign when you're going backwards). The left stick pitches and yaws, the right stick rolls.
+
+## Flight assist
+
+With flight assist on (the default) the ship cancels sideways drift for you, so it goes where it points. Press Select to turn it off and fly purely Newtonian: you can then slide sideways while you turn to shoot. The cockpit shows FA OFF and your sideways drift.
+
+## Speed and heat
+
+On the dashboard the right arc is your speed: green forwards, amber in reverse, blue in warp. The yellow mark is the docking speed limit, and a white mark at its foot lights up when you're stopped. The left arc is hull temperature, which rises near a star.
+
+## Time acceleration
+
+D-pad Left runs time four times faster, in normal flight or in warp, which helps on long trips. It switches off by itself when hostile ships appear, and isn't available right next to a station.
+
+## Outside view
+
+Tap the CAM ring at the lower left to see your ship from outside, then drag a finger across the screen to swing the camera round it. You can keep flying, fighting and docking. Tap CAM again for the cockpit.
+
+[img ultra_cockpit.png | The cockpit on Ultra: scanner in the middle, speed and heat arcs either side]
+
+# Warp and navigation
+
+Stars and planets are far apart: you arrive in a system hundreds of thousands of km from the station. The warp drive covers that in under a minute.
+
+## The warp drive
+
+Point at where you want to go and press Cross. The drive goes faster the further you are from anything, up to about a third of the speed of light, and slows as you near a planet, star or station. It drops you out about 15 km from the station, or near your nav target. Press Cross again to drop out wherever you are.
+
+## Mass lock
+
+The drive won't start, and drops you out, when a ship is within 25 km or you're too close to a planet, star or station. If a ship locks you, deal with it or fly clear, then warp again. Peaceful traffic at stations, beacons and belts doesn't lock you.
+
+## The system map
+
+Press Triangle in flight for the system map: the star, its planets, the station and any outposts, the nav beacon and the asteroid belt. Move with the D-pad, or tap a body, and press Cross to make it your nav target. A cyan diamond marks the target in flight, the compass points to it and the warp drive stops near it. In less developed systems some bodies are uncharted: press Triangle on the map to scan them, which earns explorer points. With a course plotted, Triangle in flight opens the galaxy map instead: hold it, or tap the system's name at the top left, for this system's map.
+
+## Warp assist
+
+With a warp assist module, press Cross with a nav target set and the computer flies you there: it lines up, warps, goes round planets in the way and stops at the target. Cross or the stick takes control back. Hostile ships switch it off.
+
+## Interdiction
+
+Pirates and police can try to pull you out of warp. Hold the reticle on the ESCAPE marker with the stick until your bar fills to get away. Press Cross to give up and drop out. Pirates will then attack. Police will scan you for contraband, and running from them doubles any fine if you're carrying it.
+
+## Distress calls
+
+In warp you sometimes hear a distress call. Tap the box while it shows to drop out next to the ship. A trader under attack pays you for driving off the pirates; a stranded ship pays for fuel, which you give by stopping close beside it.
+
+[img system-map.png | The system map, with a planet as the nav target]
+[img interdiction.png | An interdiction: hold the reticle on the escape marker]
+
+# Hyperspace and the galaxy map
+
+The galaxy map shows the hundred real stars nearest the Sun in 3D. Drag a finger or use the left stick to turn and tilt it, the right stick to move up and down, and L/R to zoom. Select goes back to the view round your star. While a course is plotted, tap CLEAR ROUTE at the bottom left to clear it and its lines and go back to your own star (or press Cross on the plotted star).
+
+## Jumps and fuel
+
+A jump uses a light year of fuel for each light year travelled, and your tank sets how far one jump can go. Pick any star, even out of range: the map plans the shortest route through stops your ship can reach and draws it. Press Cross to plot the course. Each time you arrive, the map opens on your next stop. You can't jump with hostile ships within 6 km.
+
+## Star details and filters
+
+The panel beside the map has tabs: STAR describes the selected star (economy, tech level, law, the power that holds it, who runs it and its state), FILTER highlights stars by economy, tech level, law, missions or a good you want to trade, ROUTES suggests trade runs, POWERS shows who holds which stars, FIND searches for a star by name, and the star tab holds your favourites. On FIND, pick letters with the D-pad and Cross (or tap them; on a PC just type); the list below shows every star whose name, or any word in it, starts with what you've typed, nearest first. Move Down to the list and Cross selects a star and centres the map on it; Cross again plots the course. Square deletes a letter. When filters are on, the FILTER tab is shown in yellow. Press Triangle to change tab. Square on the map shows the selected star's own system map, where Cross on a station plots a course straight to it.
+
+## Favourites and home
+
+The star tab keeps the stars and places you go back to. Its first row is your home station: Cross plots the way home, with the station as your nav target when you arrive. The second row adds the selected star (or removes it). To add a place, such as a station or a belt, select it on a system map and press Select. Cross on a favourite plots a course there, or makes it your nav target if it's in this system; Square removes it. You can keep up to 24. Each place shows its star and distance underneath. A gold H marks your home star on the galaxy map and your home station in the system map's list. Choose "Make this your home station" in a station's Services: there, fuel and repairs cost half and prices are 2% better, as the market reminds you.
+
+## Lawless systems
+
+Systems below tech level 5 have no police. They're marked on the map. Pirates are more common there, but so are black markets.
+
+[img galaxy-map.png | The galaxy map, with a course plotted]
+
+# Docking
+
+The station spins. Its docking slot is on one face: fly towards it, match its roll with the right stick and fly in below 100 m/s. Hitting the hull damages your ship, and the station's shape is solid. Each time you dock you're given a landing pad, shown as you come in and on the hangar's sign; bigger stations have more pads.
+
+## Docking computer
+
+Within 2 km of a station's hull press Cross and the docking computer flies you in: it swings round to the slot, matches the spin and enters. Press Cross again to take back control. Ships priced 90,000 cr and up have one fitted; for others it's a module.
+
+## At the station
+
+The station menu has two tabs (L/R to switch). Market buys and sells goods. Services refuels and repairs your ship, pays fines, opens the bulletin board, the shipyard and outfitting, and sells market reports, and can make the station your home. Circle launches you back into space.
+
+## Other stations
+
+Besides its main orbital, every system has smaller stations: mining outposts, gas refineries, research bases and belt mining stations. Each has its own market; refineries sell fuel cheaply. Only the main orbital has a shipyard. Find them on the system map.
+
+[img docking-computer.png | The docking computer on its final approach]
+
+# Trading
+
+Every star has an economy: agricultural, industrial, mining or high-tech. Each makes some goods cheaply and pays well for others, and prices shift between visits. Buy where a good is plentiful and cheap, and sell where it's scarce.
+
+## The market
+
+D-pad Right buys one unit, D-pad Left sells one. The arrows show how a price has moved since you last launched from that station. Narcotics are illegal: only lawless black markets trade them, and customs search you when you dock at a policed station.
+
+## Routes
+
+The galaxy map's ROUTES tab lists profitable runs from the prices you know, best first. Every station you dock at adds its prices. Market report, under Services, buys prices for the stars within 10 ly at 20 cr a star. Profits are estimates that allow for your hold, your credits and the fuel. Press Cross on a route to plot it: to the source first if you aren't there, with the right station as your nav target.
+
+## Outposts
+
+Outposts sell minerals cheaply and pay well for food and machinery; research bases sell medicine, computers and robots; refineries sell fuel at half price.
+
+[img market.png | A station market]
+[img routes.png | Trade routes on the galaxy map]
+
+# Missions
+
+Choose Bulletin board under Services to see jobs on offer: 8 to 12 at each visit, in tabs for ALL, COMBAT, TRADE, COURIER and PASSENGERS (L/R to change, or tap one). Each job shows how far its star is and how many jumps it takes on your drive, or 'out of range' in red if your drive can't reach it. Up/Down picks, Cross accepts, Left/Right switches between jobs here and your active missions. On the board, Square (or SHOW ON GALAXY MAP) opens the galaxy map on the job's star with the route from here drawn, without taking it; Circle brings you back. On your active missions, Cross (or PLOT ROUTE) plots the course and Square twice abandons one. Destinations show as diamonds on the galaxy map.
+
+Every job is given by one of the system's factions, shown under it with the standing it pays. Better-paid work needs a better standing with the giver: those offers are listed greyed, with the band they need (see Powers and factions).
+
+- Delivery: the cargo is loaded for you; take it to the destination before the deadline.
+- Supply: a station needs goods; buy them anywhere and dock there with them.
+- Courier: deliver a message. "No questions asked" packages pay more but count as contraband.
+- Passenger: fly someone (or a party of up to three) to another system. Each passenger takes 1 t of your hold. VIPs pay most; some passengers are wanted: expect trouble.
+- Bounty: a named pirate with a wingman waits in another system. Destroy them, then dock to claim.
+
+Missions pay when you dock at the destination, and raise your standing with the giver. Run out of time and the mission fails, costing standing; abandoning one costs half as much.
+
+[img bulletin-board.png | The bulletin board]
+
+# Mining
+
+Asteroid belts hold copper, silver, gold and, rarely, void opals. Set the belt as your nav target on the system map and warp to it.
+
+## Lasers and canisters
+
+Shoot a rock and every few hits chip off a tonne of ore, which drifts away in a canister. Fly into canisters below 250 m/s with a cargo scoop fitted to take them aboard. If you scoop something illegal, the message says where it will get you fined: here, a system on your plotted course, or any lawful system. Target a rock or canister from the contacts list and auto-follow flies you to it.
+
+## Mining scanner
+
+Without a scanner, rocks look plain grey. With one, entering a field shows what each holds, tints rocks by ore and lists them on the contacts list's ROCKS tab with their yield.
+
+## Mining charges
+
+Mining ships (the Prospector and Rockbreaker) carry charges, 250 cr each. Select a rock, or point at one within 5 km, and press Circle: the charge breaks it apart and releases twice the ore left in it. Fire from a distance: the blast wave damages every ship near the rock, yours included, and hitting traders or police with it is a crime. The Prospector and Rockbreaker also get 1.5 times the ore.
+
+Mining systems pay least for ore; high-tech and industrial systems, refineries and research bases pay most.
+
+[img mining.png | An asteroid field, with the mining scanner showing each rock's ore]
+
+# Combat
+
+Pirates ambush traders, more often in lawless systems. Fight, run, or call the police in a policed system: they fight pirates too.
+
+## Targets
+
+The nearest hostile ship is targeted automatically. D-pad Up/Down cycles through the ships in range, then "no target". In a battle, the next is another ship of the same wing if one is within 6 km. Set Auto target (pause menu, HUD and Targeting) to THREAT and when your target dies the next one is the ship that has been hitting you, then one aiming at you, then the nearest hostile; a NEXT line names it. Set it to WING and in a battle you finish a wing before moving on: the next is the same wing's ship at any range, Up/Down goes through that wing first, and the NEXT line says how many of it are left and when a wing is destroyed (the wing numbers are the column before the distance in the contacts list). Choose a target yourself and it stays your choice. In a crowded fight, the FILTER button (the funnel next to CAM) or a tap on the SHIPS heading lists hostile ships only: the heading reads SHIPS (H), and Up/Down skips allies, traders and peaceful police. Tap either again for every ship. D-pad Right still locks whatever is under your crosshair. The target has corner brackets, or an arrow round your crosshair when it's off screen, and its panel shows distance, closing speed, rank, shields and hull.
+
+## Weapons
+
+Square fires. The pulse laser and autocannon fire bolts that take time to arrive, so aim at the lead marker, the diamond joined to the target, which turns green when you're on it. Beam and military lasers hit instantly. Lasers heat up as they fire and stop when they overheat; the autocannon never overheats but uses ammunition. The 1/2 button switches between your laser and your gun.
+
+## Missiles and chaff
+
+Point at a ship within 8 km until M-LOCK shows, then press Circle. Tap the missile count to make missiles safe or armed. When a missile is coming for you, a MISSILE box appears: tap it to fire chaff, which usually fools it.
+
+## Shields and hull
+
+Shields soak up hits and recharge; the hull doesn't, so get it repaired at a station. On Ultra the hologram of your ship flashes when your shields are hit and turns red as the hull takes damage. If the hull reaches zero your ship is destroyed and you go back to your last save.
+
+## Holograms
+
+On Ultra two holograms sit either side of the scanner. The right one is your ship in its paint, in its shield rings. The left one follows what you're dealing with: a ship you've selected to attack or follow (with its own shield rings and hull damage, and a red projector if it's hostile), a rock or a cargo canister. While warp assist flies you somewhere it shows your nav target instead, a station as its real design with the slot in gold. With nothing selected and no nav target it's blank. The Holograms setting picks OUTLINE (small and turning, on the dash) or LIVE (lifted above the dash, shown as you see it, with what it is and how far; a gold arrow points to a station's slot when it faces away).
+
+## Pirates and bounties
+
+Pirates come in four ranks, Novice, Competent, Veteran and Ace, flying anything from light fighters to heavy warships. Better pilots in bigger ships are tougher and pay bigger bounties. In lawful space a bounty comes as a voucher you cash in that system (see Powers and factions). Wrecks often spill cargo canisters.
+
+## Combat rank
+
+Your combat rank climbs the classic ladder from Harmless to ELITE. Each ship you destroy (pirates, bounty targets and the enemy in conflict zones) earns points by its pilot's rank: Novice 1, Competent 2, Veteran 3, Ace 5. Weaker pilots count for less once you're well above them: at Competent and Dangerous a Novice is worth 0.4, at Deadly a Novice 0.1 and a Competent pilot 0.8. The kill message shows what each one added, and the Commander screen shows how far you are through your rank.
+
+## Conflict zones
+
+A system at war has three conflict zones (low, medium and high intensity), one in a civil war two. They show on the system map in yellow, orange and red; set one as your nav target once you're in the system and warp there. The Commander screen's NEWS tab takes you straight to a war's zones. Within 12 km both sides are fighting and a box asks you to choose: Left/Right picks a side, Cross joins, Circle stays out. Stay out and a JOIN BATTLE box waits for 45 seconds where the missile warning goes: tap it to choose a side after all. It closes once either side passes 60%, a side you've fired on can't be joined, and once you've joined you stay with that side until you leave. Your allies show green and the enemy red, on the contacts, the radar and in the scene. Kills fill each side's bar at the top of the screen, bigger ships and better pilots more; the first side to fill it wins and the losers jump out. The zone then falls quiet, grey on the system map and held by the winners, until the next war week, when every quiet zone reopens somewhere new. Low zones bring light fighters a few at a time, high zones heavy ships and aces in many waves. No police come. A stray shot through an ally in the melee is forgiven, but keep hitting your own side and they warn you, then turn on you; destroying an ally counts heavily. Shooting either side while you stay out turns that side on you (a ship flying into you doesn't). About a third of the enemy side takes you on at a time. Left alone a battle takes a few minutes; your kills speed it up. Leave the zone and the battle is over; next time you can choose again. The war goes on without you too: each week the zones you didn't decide are fought out, and a side that sweeps them makes the news.
+
+## Capital ships
+
+In a war between two of the powers, about half of high-intensity zones bring a capital ship: a 1,600 m warship of the Commonwealth (the Bastion-class battlecruiser), the Ascendancy (the Imperator-class dreadnought) or the Accord (the Concord-class carrier). Usually one is already on station when you arrive; otherwise it jumps in within two minutes, with a warning, through a blue hyperspace window. In about one battle in four both sides bring one (a lone capital ship is sometimes answered by the other side's within a minute), and the two trade broadsides across the battle. A capital ship holds its place broadside on to the enemy, and its side's reinforcements launch from the bay on its flank. Give it room: its hull is solid, and two of its turrets fire at the enemy's ships close by (you too, if you fight for the other side). The Capital ships setting (Settings tab) turns them down or off.
+
+Both sides fly in wings of two or three. A wing picks one target and sticks to it, usually a wing of the other side; at most one enemy wing chooses you, so you fight alongside your side rather than against everyone. Shoot a ship and its wing comes after you; the wing of your side nearest you comes to help. To catch your breath, fly more than 6 km from the battle's centre: the enemy breaks off and your shields recharge, while the battle goes on without you. A wing you took a ship from remembers you for a minute and comes straight for you if you return sooner.
+
+A capital ship has its own row at the top of the Ships contacts. Select it with D-pad Up/Down, or point at it and press D-pad Right. Its shield stops all your fire while any of its four heat relays stand: the orange glows along its flanks. With it selected, press D-pad Right again to pick a relay (Heat relay 2 of 4 on the target panel, a gold marker on the ship) and again to cycle to the next, then back to the hull. Lasers only count where they land on the chosen relay's glow, and missiles lock on to it. When all four relays are gone the shield is down for good, and your lasers, your missiles and the other side's capital ship wear down its hull. Destroying one earns a combat bond of 15,000 cr, reputation and ten combat rank points, as long as you fired the last shot or did a real share of its damage, and fills your side's battle bar by 30. It dies in a chain of explosions and leaves a drifting wreck for the rest of the battle; the Commander screen counts the ones you destroyed.
+
+When its side falls well behind, a capital ship decides once whether to retreat or fight to the end. A retreating one charges its jump drive for 15 seconds (CAPITAL SHIP CHARGING JUMP DRIVE, and JUMP IN over it): it launches no more ships, destroying it in that time still pays in full, and if it gets away the other side's bar gains 15. One that fights on keeps launching; if its side loses, the winners finish it off. Both make the news.
+
+Each enemy you destroy earns a combat bond from your side, about one and a half times a bounty, and a win you fought in adds a bonus bond (more for bigger battles), standing with your side and influence for it in the system: +1%, +2% or +3% for a low, medium or high zone at the next weekly update, taken from the enemy. Lose a battle you fought in and the enemy gains half that. Bonds are cashed when you dock anywhere their faction has a presence, including the system at war. A war still decides control only when it ends, so help your side through the weeks it lasts.
+
+## Auto-follow
+
+D-pad Right locks the ship right under your crosshair: it becomes your target, and your missile lock stays on it instead of jumping to other ships. While your target is ahead of you, Right keeps it. With an auto-follow module, Right on your target makes the ship chase it, holding about 600 m behind it while you shoot; press it again or move the stick to take over. Turn Auto-follow off in the pause menu if you'd rather fly every fight yourself: Right then only locks. The missile lock is drawn in the ship's contacts colour (red only for enemies and pirates); the Lock colours setting can make it always red.
+
+[img curved-hud.png | The curved combat HUD]
+
+# Power
+
+Your ship shares six power pips between weapons (W), engines (E) and shields (S), two each to start. Hold the PWR ring at the top right (or the rear pad's upper left, a setting) and press the D-pad:
+
+- Up: a pip to weapons, for more damage and less heat per shot.
+- Left: a pip to engines, for more thrust, speed and turn.
+- Right: a pip to shields, for faster recharging.
+- Down: back to two each.
+
+A system can hold up to four pips. Power goes back to two each every time you launch.
+
+[img power.png | Setting power: the E W S pips above the dash]
+
+# The law
+
+Systems with tech level 5 or more are policed. Police ships are blue on the scanner, pirates red, traders green and bounty targets orange.
+
+## Crimes
+
+- Firing your weapons within 4 km of a station, except in self-defence while pirates are near.
+- Shooting traders or police. Destroying a police ship makes you a fugitive at once.
+- Carrying contraband, found by customs when you dock or by a police scan.
+
+## Legal status
+
+- Clean: no trouble.
+- Offender: you have unpaid fines. Pay them under Services. Leave them unpaid for 30 days, or let them pass 1,000 cr, and you become a fugitive.
+- Fugitive: lawful stations won't let you dock and police attack on sight. Clear your record at a lawless station.
+
+You can eject cargo from the pause menu in flight, but not in sight of the police.
+
+# Powers and factions
+
+Three powers share the stars near Sol. The Solar Commonwealth, from Sol, is democratic and corporate, with the strictest police. The Sirian Ascendancy, from Sirius, is ruled by noble houses bound by patronage. The Free Worlds Accord, from Lacaille 8760, is a confederacy of mining and farming colonies. Each holds the lawful systems within about 14 light years of its capital. Lawful systems further out are independent, and lawless systems (below tech level 5) belong to no power.
+
+## Who runs a system
+
+Every system has two to four minor factions sharing its influence. The one with the most controls the stations, and its police are the system's police: you'll hear them by name on the radio, the station screen says who polices it, and on Ultra their ships wear their power's colours (blue, amber, orchid, or steel for independents). A faction may belong to a power or stand alone; a pirate gang can hold a share even in lawful space.
+
+## The POWERS tab
+
+The galaxy map's fourth tab shades the map by allegiance: a soft glow in each power's colour (Classic colours the stars instead), with the capitals ringed, wars drawn as dashed red lines to the enemy's nearest system, and frontier systems framed by corners in the colour of the side pressing them. Left/Right turns the shading or the war lines off. Cross on a power lists its systems, capital first; Up/Down moves along them and Cross plots a course. Circle closes the list.
+
+## States
+
+Every 7 days each system's influence moves. Your missions raise the influence of the faction that gave them, where it gave them; cashing bounty vouchers and selling goods help the faction that runs the system; destroying its police or traders, and failing its missions, cost it. Each faction also drifts a little of its own accord. When the faction you work for overtakes the others, it takes control of the system, its police with it. During a war, civil war or election the rulers stay in place until it ends; then whoever leads takes control. The rulers hold a small edge, so without your help few systems change hands.
+
+Each system can be in a state, which runs for a week or more. The STAR tab and the system map show it, with the days it has left, the controlling faction's government, the influence of every faction and who it is at war with:
+
+- Boom (lots of trade or courier work done here): sells 10% higher, more trade jobs.
+- Bust (often after a boom): goods 10% cheaper to buy and sell for 10% less, fewer jobs.
+- Expansion (a faction with 68% or more): it spreads into a nearby system.
+- Election (two peaceful factions neck and neck): more courier work; the rulers usually win, unless you help the other side.
+- Civil unrest (crimes here, or a strong pirate gang): weapons 20% dearer, more pirates about.
+- Lockdown (after unrest): the shipyard and outfitting are closed, and police scan every ship.
+- Civil war (two factions neck and neck, one of them lawless): more combat work.
+- War (where two powers' factions meet): weapons 20% and medicine 25% dearer, more combat work.
+
+## Frontiers
+
+A lawful system with another side's system within 8 light years (another power's, or the independents') is a frontier; the rest are heartland. Every week the neighbours press on a frontier: their factions there gain ground, more the more neighbouring systems they hold and the nearer their capital, and a rival with no faction there may move one in. The rulers hold some ground from their own neighbours. Heartland systems feel no pressure from outside, though elections and civil wars still happen there. Left alone, a frontier changes hands every few years; a mission a week for its rulers holds it. A power that has grown well past its old size presses more weakly, and one that has shrunk presses harder, so no power runs away with the map. Minor factions also come and go: one that dwindles to almost nothing may leave, and one that has vanished may return to its home system.
+
+When a rival's faction closes in on the rulers of a frontier, the news says the border is under pressure.
+
+When you arrive after a jump, the news tells you of changes in nearby systems. The Commander screen's NEWS tab keeps the stories: its Hotspots list shows where your work can tip the balance (wars and civil wars first, then elections and close races, unrest, and factions about to expand), each with the sides' influence, your standing with them, the days left, how many days the trip there takes (in amber if it may end before you arrive, red if it's likely over) and what helps; the Headlines below it are the galaxy's news, newest first (booms, busts, unrest and plans to expand only within 15 ly). CROSS on either shows the star on the galaxy map (on a war or civil war, the system's own map with its conflict zones), SQUARE plots a course there, and CIRCLE comes back.
+
+## Reputation
+
+Your standing with each faction runs from -100 to +100, in bands: Hostile, Unfriendly, Neutral, Cordial (from +20), Friendly (from +40) and Allied (from +70). A finished mission raises it with the giver by 2 to 8, depending on the pay; the giver's enemies (the other side of a war or civil war) lose half that, and the giver's power gains about a quarter. Answering a distress call in lawful space earns standing with the system's rulers; destroying police or civilian ships costs it.
+
+Standing never locks you out: docking is never refused and police don't attack you for it. But a faction that finds you Unfriendly offers you only its worst-paid work and charges 5% more at its stations; Hostile, no work at all and 10% worse prices.
+
+## Bounty vouchers
+
+In lawful space a pirate's bounty is a voucher from the faction that runs the system, not cash. Dock at a station in a system that faction runs to cash it (it's paid as you dock, with a little standing). Vouchers keep, but they're only safe once cashed: if you're destroyed, you go back to your last save. In lawless systems there's nobody to issue one, so bounties there are paid at once.
+
+[img factions.png | The Commander screen's FACTIONS tab]
+
+[img powers.png | The galaxy map's POWERS tab, with the wars marked]
+
+# Ships and outfitting
+
+The main orbital of each system has a shipyard (Services, Shipyard and outfitting). L/R switches between Outfitting, Ships for sale and Paint; Cross buys.
+
+## Buying a ship
+
+Your current ship is traded in at 70% of its price, and equipment that doesn't fit the new ship is sold back at half price. Better ships need a higher tech level shipyard. Square filters the list by role. The SHIPS page of this handbook lists every ship.
+
+## Hardpoints
+
+Light ships take pulse and beam lasers; medium and heavy ships take the military laser too. Bigger ships have more laser and gun mounts, all firing together: more damage, but weapons cost their price for each mount.
+
+## Equipment
+
+Lasers, shield generators, missiles, chaff, a cargo bay extension and modules: docking computer, fuel and cargo scoops, auto-follow, warp assist and mining scanner. Low-tech stations sell less. The EQUIPMENT page of this handbook lists them all.
+
+## Fuel scoop
+
+Fly within 15% of the star's radius of its surface and fuel flows in, faster the closer you go, even in warp. Watch the heat arc: very close in the hull overheats and starts burning.
+
+## Paint and name
+
+The PAINT tab repaints your ship: pick a scheme with Left/Right, or choose the base, accent and trim colours from the swatches (tap one, or Left/Right on its row). The model shows the colours as you try them; Apply paint charges 500 cr. Name lets you give your ship a name of up to 16 letters, free. Paint and name belong to the ship: buy another and it comes in factory white and orange with no name. The name shows on the Commander screen and your save slot. Paint shows on Ultra graphics, where police, pirates, traders and miners wear their own colours too, with red and green wingtip lights and a white strobe.
+
+[img paint.png | The PAINT tab on Ultra]
+
+[img outfitting.png | Outfitting at the shipyard]
+
+# Commander and saves
+
+You choose your name when you start. Press Square while docked, or choose Commander status in the pause menu, to see your record.
+
+## Ratings
+
+- Combat, from pirates destroyed: Harmless up to ELITE.
+- Trade, from trading profit: Penniless up to ELITE.
+- Explorer, from systems visited and distance flown: Aimless up to ELITE.
+
+The Most Wanted tab lists the biggest bounties you've claimed. The FACTIONS tab shows your standing with the three powers and every minor faction you've dealt with (nearest first; Up/Down scrolls), and your unclaimed bounty vouchers. The NEWS tab is described under Powers and factions. The MESSAGES tab lists the last 16 messages, newest first, so you can read again any that passed too quickly. Rise in the Sirian Ascendancy's favour and it grants you a title: Squire at Cordial, Knight at Friendly, Baron at Allied.
+
+## Saving
+
+The title screen has three save slots: Up/Down picks one, Cross plays it or starts a new commander, Square twice deletes it. Triangle shows the credits: the libraries the game is built with and their licences. The game saves every time you dock, and the pause menu can save in flight when no pirates are near. To change commander without leaving the game, choose Save and return to title on the pause menu's Settings tab.
+
+[img commander.png | The Commander status screen]
+
+# Settings
+
+Press Start in flight or at a station for the pause menu. Each tab has two columns with a group of rows below them: Down runs through the left column, then the right, then the group, and Left/Right change a setting. On the touch screen, tap a row to pick it and tap it again to choose it or change it (the right half steps up, the left half down). There are three tabs: Game, HUD and Targeting, and Settings. The Game tab has your ship and status on the left and flight and warp assist on the right. The Settings tab has these:
+
+- Graphics: Classic wireframe, Enhanced, or Ultra with detailed planet surfaces, canopy struts and holograms.
+- Canopy struts: show or hide Ultra's canopy frame.
+- Holograms: Ultra's holograms OUTLINE (on the dash, turning) or LIVE (lifted, as you see it, with a caption).
+- Capital ships: FULL, LIGHT (at most one in a battle, without the lit windows) or OFF (none). Turn it down if big battles slow the game.
+- Sound volume, Sensitivity and Invert pitch.
+- Power control: hold the front corner or the rear pad's upper left to set power.
+- Language: the language of the game's text, for the whole game: English, German, French, Spanish, Italian or Brazilian Portuguese. The translations marked (AI) or (KI) are first drafts made with AI; players help correct them on GitHub. A new player is asked once, on the title screen.
+- Prompts: FULL adds advice to the prompts above the dash (how to dock by hand, how to escape an interdiction) and the power keys while you hold the power control; SHORT keeps just what each button does.
+- FPS counter, the Pilot's Handbook, and Save, Save and return to title (to pick another commander; press Cross twice), Save and quit or Quit.
+
+The HUD and Targeting tab has the curved combat HUD, the contacts list, how see-through the HUD panels are (the contacts list, the chat window and the help box behind prompts), the map panels and pilot chatter on the left. On the right: Auto target (NEAREST, THREAT or WING, see Targeting), the Filter button (shows or hides the FILTER button next to CAM), Auto-follow and Lock colours.
+
+Found a bug, or have an idea? The amber REPORT A BUG OR IDEA button on every tab (the last stop going down, or tap it) shows a QR code: scan it with your phone to open a bug report or a feature request on the game's GitHub page, with your version filled in. Left/Right switches between the two. You need a free GitHub account, and reports are public.
+
+[img settings.png | The pause menu's Settings tab]
+[img handbook.png | The Pilot's Handbook in the game]

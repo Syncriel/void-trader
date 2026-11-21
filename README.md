@@ -35,8 +35,8 @@ is not published, and pull requests aren't accepted.
   you can still join it before it's decided.
 - 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
 - Six languages (from v1.6.8): English, plus German, French, Spanish, Italian and Brazilian Portuguese
-  as first drafts made with AI. Some lines will be clumsy or wrong: corrections are very welcome, through
-  Report a bug or idea in the pause menu.
+  as first drafts made with AI. Some lines will be clumsy or wrong: corrections and new languages are very
+  welcome, see [Translating Void Trader](translations/).
 - Three graphics modes: Classic wireframe, Enhanced, and Ultra with painted ships and stations, docking
   hangars and planet surfaces down to low orbit.
 
@@ -73,10 +73,11 @@ play-testing and players' feedback. Each release lists its changes on the [relea
 
 ## Report a bug or suggest a feature
 
-Found a bug, or have an idea? Open an issue with one of the two forms:
+Found a bug, or have an idea? Open an issue with one of the forms:
 
 - [Report a bug](../../issues/new?template=bug_report.yml): include the version and build from the title screen.
 - [Suggest a feature](../../issues/new?template=feature_request.yml): check the roadmap above first.
+- [Offer a translation](../../issues/new?template=translation.yml): corrections to a language, or a new one. The [translation guide](translations/) explains how.
 
 From v1.5.8 you can also do it from the game: the pause menu's REPORT A BUG OR IDEA button shows a QR
 code that opens the right form on your phone, with the version already filled in.

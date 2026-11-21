@@ -1,0 +1,59 @@
+name: Offer a translation
+description: Correct lines in one of the game's languages, or start a new language
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping translate Void Trader! The [translation guide](https://github.com/Syncriel/void-trader/tree/main/translations) explains the files and how to try your changes on your Vita.
+        For a whole file, a pull request is easiest: open the file in [translations](https://github.com/Syncriel/void-trader/tree/main/translations), press the pencil (Edit) button, then **Propose changes**.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you offering?
+      options:
+        - Corrections to a few lines
+        - I'm starting a new language
+        - Something else about translations
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Français, Deutsch, Nederlands
+    validations:
+      required: true
+  - type: textarea
+    id: lines
+    attributes:
+      label: The lines
+      description: |
+        For corrections, paste each line as it is now and how it should read, or the lines from the file with your changes.
+        For a new language, tell us anything we should know (for example letters the game's font may not have).
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version you're playing (optional)
+      placeholder: v1.6.8 (build 315)
+    validations:
+      required: false
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Your translation
+      options:
+        - label: This is my own work, and I agree it can be included in Void Trader, edited and given away with the game, free of charge.
+          required: true
+  - type: checkboxes
+    id: credit
+    attributes:
+      label: Credit in the release notes
+      description: When your translation goes into the game, we thank you by your GitHub username in that release's notes.
+      options:
+        - label: Please don't name me in the release notes
+          required: false
