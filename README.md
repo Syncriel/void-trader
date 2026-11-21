@@ -34,8 +34,9 @@ is not published, and pull requests aren't accepted.
   In big fights, a hostiles-only filter and auto target by threat or by wing; stay out of a battle and
   you can still join it before it's decided.
 - 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
-- A Language setting (from v1.6.6): English for now, with the letters and language files ready for
-  translations from players, which are on the way.
+- Six languages (from v1.6.8): English, plus German, French, Spanish, Italian and Brazilian Portuguese
+  as first drafts made with AI. Some lines will be clumsy or wrong: corrections are very welcome, through
+  Report a bug or idea in the pause menu.
 - Three graphics modes: Classic wireframe, Enhanced, and Ultra with painted ships and stations, docking
   hangars and planet surfaces down to low orbit.
 
