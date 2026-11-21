@@ -31,6 +31,8 @@ is not published, and pull requests aren't accepted.
   reputation with every faction, and a news feed of what's happening near you.
 - Newtonian flight, docking by hand (or with a docking computer), lasers, an autocannon, missiles and
   chaff, power management, ranked pirates and police, interdictions, and mining with lasers and charges.
+  In big fights, a hostiles-only filter and auto target by threat or by wing; stay out of a battle and
+  you can still join it before it's decided.
 - 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
 - Three graphics modes: Classic wireframe, Enhanced, and Ultra with painted ships and stations, docking
   hangars and planet surfaces down to low orbit.
