@@ -1,6 +1,7 @@
 {
-  "version": "1.6.9",
-  "title": "Translate with us",
-  "url": "https://github.com/Syncriel/void-trader/releases/tag/v1.6.9",
-  "vitadb": false
+  "version": "1.6.99",
+  "title": "Test notice",
+  "url": "https://github.com/Syncriel/void-trader/releases",
+  "vitadb": false,
+  "test": true
 }
