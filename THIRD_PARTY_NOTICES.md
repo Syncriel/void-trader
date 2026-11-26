@@ -15,6 +15,22 @@ libraries below, statically linked. Their full licence texts are in the `license
 | math-neon (libmathneon) | commit 0faab81 | MIT | Lachlan Tychsen-Smith | https://github.com/Rinnegatamante/math-neon |
 | taiHEN (stubs) | 0.11 | MIT | Yifan Lu | https://github.com/yifanlu/taiHEN |
 | QR Code generator library (C) | commit bcfe1b0 | MIT | Project Nayuki | https://github.com/nayuki/QR-Code-generator |
+| curl (libcurl) | 8.17.0 | curl (MIT-style) | Daniel Stenberg and contributors | https://curl.se |
+| OpenSSL | 1.1.1 | OpenSSL and SSLeay (dual) | The OpenSSL Project; Eric Young | https://www.openssl.org |
+| zlib | 1.3.2 | zlib | Jean-loup Gailly and Mark Adler | https://zlib.net |
+| Zstandard (libzstd) | 1.5.7 | BSD-3-Clause | Meta Platforms, Inc. and affiliates | https://github.com/facebook/zstd |
+| Mozilla CA certificate list (`cacert.pem`, via certifi 2026.10.18) | 2026.10.18 | MPL-2.0 | Mozilla Foundation | https://github.com/certifi/python-certifi |
+
+curl, OpenSSL, zlib and Zstandard are used only by the title screen's check for new versions (item 187, from
+v1.6.10), which reads one small file from the game's public GitHub page when the player has turned it on.
+`cacert.pem` is a selection of 22 root certificates from Mozilla's list of certificate authorities, each
+unchanged, which the game ships beside the eboot so curl can check that it is talking to GitHub; its source is the certifi project linked above
+(and Mozilla's NSS, https://hg.mozilla.org/projects/nss), and its licence is in `licenses/MPL-2.0.txt`.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit
+(http://www.openssl.org/). This product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com). OpenSSL's licence texts are in `licenses/OpenSSL-1.1.1.txt`, curl's in
+`licenses/curl.txt`, zlib's in `licenses/zlib.txt` and Zstandard's in `licenses/zstd-BSD.txt`.
 
 The QR Code generator (`src/qrcodegen.c`, `src/qrcodegen.h`, unchanged) is compiled into the game
 itself, in both the Vita and desktop builds; it draws the pause menu's "Report a bug or idea" code.

@@ -102,6 +102,14 @@ You need a GitHub account, and issues are public. New reports are read every wee
 The Pilot's Manual (`VoidTrader-Manual-vX.Y.Z.pdf`) is on the same release page, and the game has
 a Pilot's Handbook in its pause menu.
 
+### Checking for new versions
+
+From v1.6.10 the title screen can tell you when a new version is out. It asks once whether you want
+that; you can change it any time in Settings > Updates, or with L on the title screen. When it's on,
+once a day and only when the Vita is on Wi-Fi, the game reads one small file, `latest.json`, from this
+repository and nothing else is sent. If a newer release is out, a box says so once, with a code to scan
+for the download and whether VitaDB Downloader has it yet.
+
 ### Your saves and backups
 
 Saves and settings are in `ux0:data/VoidTrader/VoidTrader/` (`save.dat`, `save2.dat`, `save3.dat`

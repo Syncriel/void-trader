@@ -22,7 +22,7 @@ The game saves itself every time you dock. The Pilot's Handbook is always in the
 
 ## Backups and what's new
 
-Press R on the title screen (or tap BACKUPS) to see the chosen slot's backups. BACK UP NOW copies your save; the three latest of your own are kept. The game also makes one by itself before a new version first saves over your commander, and one each day you play. Choose a backup and press Cross twice to restore it: your save as it was is kept as "Before a restore", so you can change your mind. The files sit beside your saves in ux0:data/VoidTrader/VoidTrader/. After an update the title shows WHAT'S NEW once; Select (or the WHAT'S NEW button) opens it any time.
+Press R on the title screen (or tap BACKUPS) to see the chosen slot's backups. BACK UP NOW copies your save; the three latest of your own are kept. The game also makes one by itself before a new version first saves over your commander, and one each day you play. Choose a backup and press Cross twice to restore it: your save as it was is kept as "Before a restore", so you can change your mind. The files sit beside your saves in ux0:data/VoidTrader/VoidTrader/. After an update the title shows WHAT'S NEW once; Select (or the WHAT'S NEW button) opens it any time. L (or the UPDATES button) turns the check for new versions on or off (see Settings).
 
 [img title.png | The title screen, with three save slots]
 
@@ -145,12 +145,12 @@ Choose Bulletin board under Services to see jobs on offer: 8 to 12 at each visit
 Every job is given by one of the system's factions, shown under it with the standing it pays. Better-paid work needs a better standing with the giver: those offers are listed greyed, with the band they need (see Powers and factions).
 
 - Delivery: the cargo is loaded for you; take it to the destination before the deadline.
-- Supply: a station needs goods; buy them anywhere and dock there with them.
+- Supply: a station needs goods; buy them elsewhere and dock there with them. The station (and its system's markets) has none for sale while it wants them: the market shows WANTED in its stock column. If you already have the goods aboard when you take the job there, it's ready to hand in at once.
 - Courier: deliver a message. "No questions asked" packages pay more but count as contraband.
 - Passenger: fly someone (or a party of up to three) to another system. Each passenger takes 1 t of your hold. VIPs pay most; some passengers are wanted: expect trouble.
 - Bounty: a named pirate with a wingman waits in another system. Destroy them, then dock to claim.
 
-Missions pay when you dock at the destination, and raise your standing with the giver. Run out of time and the mission fails, costing standing; abandoning one costs half as much.
+When you dock where a mission ends it becomes READY, and the Services tab shows how many are waiting. Open Bulletin board > ACTIVE, where ready missions are listed first, and hand one in with Cross (or HAND IN) to be paid. Choose your reward: CREDITS pays the full reward; + INFLUENCE pays 75% and gives the faction that gave the job three times the usual influence where it gave it; + REPUTATION pays 60% and gives three times the standing with the giver. Triangle (or HAND IN ALL) hands in every ready mission at once, as credits. Passengers and delivery cargo stay aboard until you hand the mission in. Bounties are paid as soon as you dock. Every finished mission raises your standing with the giver. Run out of time, even with a mission ready, and it fails, costing standing; abandoning one costs half as much.
 
 [img bulletin-board.png | The bulletin board]
 
@@ -204,7 +204,7 @@ Pirates come in four ranks, Novice, Competent, Veteran and Ace, flying anything 
 
 ## Combat rank
 
-Your combat rank climbs the classic ladder from Harmless to ELITE. Each ship you destroy (pirates, bounty targets and the enemy in conflict zones) earns points by its pilot's rank: Novice 1, Competent 2, Veteran 3, Ace 5. Weaker pilots count for less once you're well above them: at Competent and Dangerous a Novice is worth 0.4, at Deadly a Novice 0.1 and a Competent pilot 0.8. The kill message shows what each one added, and the Commander screen shows how far you are through your rank.
+Your combat rank climbs the classic ladder from Harmless to ELITE, and on past it to APEX, PARAGON and MYTHIC, each a far longer climb than the one before. Each ship you destroy (pirates, bounty targets and the enemy in conflict zones) earns points by its pilot's rank: Novice 1, Competent 2, Veteran 3, Ace 5. Weaker pilots count for less once you're well above them: at Competent and Dangerous a Novice is worth 0.4, at Deadly a Novice 0.1 and a Competent pilot 0.8. The kill message shows what each one added, and the Commander screen shows how far you are through your rank.
 
 ## Conflict zones
 
@@ -296,7 +296,7 @@ When you arrive after a jump, the news tells you of changes in nearby systems. T
 
 ## Reputation
 
-Your standing with each faction runs from -100 to +100, in bands: Hostile, Unfriendly, Neutral, Cordial (from +20), Friendly (from +40) and Allied (from +70). A finished mission raises it with the giver by 2 to 8, depending on the pay; the giver's enemies (the other side of a war or civil war) lose half that, and the giver's power gains about a quarter. Answering a distress call in lawful space earns standing with the system's rulers; destroying police or civilian ships costs it.
+Your standing with each faction runs from -100 to +100, in bands: Hostile, Unfriendly, Neutral, Cordial (from +20), Friendly (from +40) and Allied (from +70). A finished mission raises it with the giver by 2 to 8, depending on the pay (three times that if you hand it in for + REPUTATION); the giver's enemies (the other side of a war or civil war) lose half that, and the giver's power gains about a quarter. Answering a distress call in lawful space earns standing with the system's rulers; destroying police or civilian ships costs it.
 
 Standing never locks you out: docking is never refused and police don't attack you for it. But a faction that finds you Unfriendly offers you only its worst-paid work and charges 5% more at its stations; Hostile, no work at all and 10% worse prices.
 
@@ -345,6 +345,7 @@ You choose your name when you start. Press Square while docked, or choose Comman
 - Combat, from pirates destroyed: Harmless up to ELITE.
 - Trade, from trading profit: Penniless up to ELITE.
 - Explorer, from systems visited and distance flown: Aimless up to ELITE.
+- Above ELITE, each ladder goes on to APEX, PARAGON and MYTHIC: four times ELITE's mark for APEX, then six times that, then six times that again. ELITE and above show in gold.
 
 The Most Wanted tab lists the biggest bounties you've claimed. The FACTIONS tab shows your standing with the three powers and every minor faction you've dealt with (nearest first; Up/Down scrolls), and your unclaimed bounty vouchers. The NEWS tab is described under Powers and factions. The MESSAGES tab lists the last 16 messages, newest first, so you can read again any that passed too quickly. Rise in the Sirian Ascendancy's favour and it grants you a title: Squire at Cordial, Knight at Friendly, Baron at Allied.
 
@@ -366,6 +367,7 @@ Press Start in flight or at a station for the pause menu. Each tab has two colum
 - Power control: hold the front corner or the rear pad's upper left to set power.
 - Language: the language of the game's text, for the whole game: English, German, French, Spanish, Italian or Brazilian Portuguese. The translations marked (AI) or (KI) are first drafts made with AI; players help correct them on GitHub. A new player is asked once, on the title screen.
 - Copy for editing: puts the chosen language's file in your save folder (ux0:data/VoidTrader/VoidTrader/lang/) so you can correct it on your Vita; the game then reads your copy, and the Language row shows (edited). Choose the language again to see your changes. Remove my copy deletes it and goes back to the game's own file. How to send corrections: the translation guide on the game's GitHub page.
+- Updates: ON lets the title screen ask the game's GitHub page, once a day when you're on Wi-Fi, whether a newer version is out; nothing else is sent. When there is one, a box says so once (with a code to scan for the download, and whether VitaDB Downloader has it yet) and the version line at the foot of the title shows it in gold until you update. You're asked once whether to turn it on; L on the title screen (or the UPDATES button) turns it on or off too.
 - Prompts: FULL adds advice to the prompts above the dash (how to dock by hand, how to escape an interdiction) and the power keys while you hold the power control; SHORT keeps just what each button does.
 - FPS counter, the Pilot's Handbook, and Save, Save and return to title (to pick another commander; press Cross twice), Save and quit or Quit.
 

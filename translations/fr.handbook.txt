@@ -1,0 +1,385 @@
+; Manuel du pilote de Void Trader (pages du GUIDE), traduction française.
+; Garde les balises : "# Titre" commence une page, "## En-tête" une section, une ligne vide termine un paragraphe, "- " commence
+; une puce. Les lignes commençant par ";" sont des notes. Les lignes [img ...] sont pour le manuel imprimé (ne pas les modifier).
+; Le jeu gère le retour à la ligne lui-même. Utilise uniquement les caractères de la police du jeu (Europe occidentale, comme dans le .json).
+
+# Premiers pas
+
+Void Trader est un jeu de commerce spatial se déroulant parmi les cent étoiles réelles les plus proches du Soleil. Vous commencez dans le système Sol, amarré à la station orbitale, aux commandes d'un cargo léger Sparrow, avec un pécule modeste et une soute à remplir. La voie que vous suivrez ne dépend que de vous : commerce, chasse aux pirates, minage d'astéroïdes, missions de factions ou exploration.
+
+## Votre premier voyage
+
+- À la station, ouvrez le Marché et achetez des marchandises bon marché ici. Transporter des ordinateurs de Sol vers Alpha du Centaure est un excellent premier trajet.
+- Appuyez sur Triangle pour afficher la carte galactique, choisissez une étoile à portée et appuyez sur Cross pour tracer une route.
+- Appuyez sur Circle pour décoller. Vous quittez la station par le sas d'amarrage.
+- Appuyez sur Triangle en vol : la carte galactique s'ouvre sur votre route planifiée. Appuyez sur Cross pour sauter.
+- Vous arrivez près de l'étoile. Visez les crochets jaunes de la station orbitale et appuyez sur Cross pour engager le warp vers elle.
+- Le moteur warp vous fait sortir de distorsion à environ 15 km de la station. Engagez-vous dans le sas d'amarrage en dessous de 100 m/s, ou appuyez sur Cross à moins de 2 km de sa coque si votre vaisseau est équipé d'un ordinateur d'amarrage.
+- Vendez votre cargaison, faites le plein de carburant, réparez votre coque et planifiez votre prochain voyage.
+
+Le jeu sauvegarde automatiquement à chaque amarrage. Le Manuel du pilote est toujours accessible dans le menu pause : appuyez sur Start, puis sélectionnez-le dans l'onglet Settings.
+
+## Sauvegardes et nouveautés
+
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+Appuyez sur R sur l'écran titre (ou touchez SAUVEGARDES) pour voir les sauvegardes de l'emplacement choisi. SAUVEGARDER MAINTENANT copie votre sauvegarde ; vos trois dernières copies personnelles sont conservées. Le jeu en crée également une automatiquement avant qu'une nouvelle version n'écrase votre commandant, ainsi qu'une fois par jour de jeu. Choisissez une sauvegarde et appuyez deux fois sur Cross pour la restaurer : votre sauvegarde précédente est conservée sous « Avant une restauration », ce qui vous permet de changer d'avis à tout moment. Les fichiers se trouvent aux côtés de vos sauvegardes dans ux0:data/VoidTrader/VoidTrader/. Après une mise à jour, l'écran titre affiche NOUVEAUTÉS une première fois ; Select (ou le bouton NOUVEAUTÉS) permet de l'ouvrir à tout moment. L (ou le bouton MISES À JOUR) active ou désactive la recherche de nouvelles versions (voir Paramètres).
+
+[img title.png | The title screen, with three save slots]
+
+# Vol
+
+Votre vaisseau obéit aux lois de Newton : il conserve son mouvement jusqu'à ce que vous appliquiez une poussée opposée. R propulse vers l'avant et L freine, puis passe en marche arrière (votre vitesse affiche un signe moins lorsque vous reculez). Le stick gauche contrôle le tangage et le lacet, le stick droit le roulis.
+
+## Assistance de vol
+
+Avec l'assistance de vol activée (par défaut), le vaisseau compense automatiquement la dérive latérale pour suivre le cap de son nez. Appuyez sur Select pour la désactiver et voler selon les lois pures de Newton : vous pouvez alors dériver latéralement tout en pivotant pour faire feu. Le cockpit affiche FA OFF ainsi que votre dérive latérale.
+
+## Vitesse et température
+
+Sur le tableau de bord, l'arc de droite indique votre vitesse : vert vers l'avant, ambre en marche arrière, bleu en warp. Le repère jaune marque la vitesse limite d'amarrage, et un repère blanc à sa base s'allume à l'arrêt complet. L'arc de gauche indique la température de coque, qui monte à proximité d'une étoile.
+
+## Accélération du temps
+
+D-pad gauche accélère le temps par quatre, en vol normal ou en warp, ce qui raccourcit les longs trajets. Il se désactive automatiquement dès que des vaisseaux hostiles apparaissent, et n'est pas disponible à proximité immédiate d'une station.
+
+## Vue extérieure
+
+Touchez l'anneau CAM en bas à gauche pour voir votre vaisseau depuis l'extérieur, puis glissez votre doigt sur l'écran pour faire pivoter la caméra autour de lui. Vous pouvez continuer à piloter, combattre et vous amarrer. Touchez CAM à nouveau pour revenir au cockpit.
+
+[img ultra_cockpit.png | The cockpit on Ultra: scanner in the middle, speed and heat arcs either side]
+
+# Warp et navigation
+
+Les étoiles et les planètes sont très éloignées : vous arrivez dans un système à des centaines de milliers de kilomètres de la station. Le moteur warp permet de franchir cette distance en moins d'une minute.
+
+## Le moteur warp
+
+Pointez vers votre destination et appuyez sur Cross. Le moteur accélère d'autant plus que vous êtes éloigné de tout corps céleste, jusqu'à environ un tiers de la vitesse de la lumière, et ralentit à l'approche d'une planète, d'une étoile ou d'une station. Il vous fait sortir de distorsion à environ 15 km de la station, ou près de votre cible nav. Appuyez de nouveau sur Cross pour sortir de distorsion où que vous soyez.
+
+## Verrou de masse
+
+Le moteur warp refuse de s'enclencher, et vous fait sortir de distorsion, lorsqu'un vaisseau se trouve à moins de 25 km ou lorsque vous êtes trop près d'une planète, d'une étoile ou d'une station. Si un vaisseau vous verrouille, neutralisez-le ou éloignez-vous, puis relancez le warp. Le trafic pacifique aux abords des stations, des balises et des ceintures d'astéroïdes ne provoque aucun verrouillage de masse.
+
+## La carte du système
+
+Appuyez sur Triangle en vol pour ouvrir la carte du système : l'étoile, ses planètes, la station et les avant-postes éventuels, la balise de navigation et la ceinture d'astéroïdes. Déplacez-vous avec le D-pad, ou touchez un astre, et appuyez sur Cross pour le définir comme cible nav. Un losange cyan marque la cible en vol, la boussole pointe vers elle et le moteur warp s'arrête à proximité. Dans les systèmes moins développés, certains astres ne sont pas cartographiés : appuyez sur Triangle sur la carte pour les analyser, ce qui rapporte des points d'explorateur. Lorsqu'une route est tracée, Triangle en vol ouvre la carte galactique : maintenez la touche, ou touchez le nom du système en haut à gauche, pour revenir à la carte de ce système.
+
+## Assistance warp
+
+Avec un module d'assistance warp, appuyez sur Cross avec une cible nav sélectionnée et l'ordinateur pilote pour vous : il s'aligne, engage le warp, contourne les planètes sur le chemin et s'arrête à la cible. Appuyer sur Cross ou bouger le stick redonne le contrôle manuel. La présence de vaisseaux hostiles désactive l'assistance.
+
+## Interdiction
+
+Les pirates et la police peuvent tenter de vous extraire du warp. Alignez le réticule sur le repère d'évasion (ESCAPE) avec le stick jusqu'à ce que votre jauge se remplisse pour vous échapper. Appuyez sur Cross pour vous soumettre et sortir du warp. Les pirates attaqueront immédiatement. La police scannera votre soute à la recherche de contrebande, et fuir devant eux doublera toute amende si vous transportez des marchandises illicites.
+
+## Appels de détresse
+
+En warp, vous capterez parfois un appel de détresse. Touchez l'encadré pendant qu'il apparaît pour sortir près du vaisseau. Un marchand attaqué vous récompensera pour avoir repoussé les pirates ; un vaisseau en panne vous paiera pour du carburant, que vous lui transférez en vous immobilisant juste à côté de lui.
+
+[img system-map.png | The system map, with a planet as the nav target]
+[img interdiction.png | An interdiction: hold the reticle on the escape marker]
+
+# Hyperespace et carte galactique
+
+La carte galactique affiche en 3D les cent étoiles réelles les plus proches du Soleil. Glissez un doigt ou utilisez le stick gauche pour la faire tourner et l'incliner, le stick droit pour monter et descendre, et L/R pour zoomer. Select ramène la vue centrée sur votre étoile actuelle. Lorsqu'une route est tracée, touchez EFFACER LA ROUTE en bas à gauche pour effacer la route et ses tracés et revenir à votre étoile (ou appuyez sur Cross sur l'étoile sélectionnée).
+
+## Sauts et carburant
+
+Un saut consomme une année-lumière de carburant par année-lumière parcourue, et la capacité de votre réservoir détermine la portée maximale d'un saut. Choisissez n'importe quelle étoile, même hors de portée : la carte calcule le trajet le plus court en escales accessibles pour votre vaisseau et le trace. Appuyez sur Cross pour valider la route. À chaque arrivée, la carte s'ouvre sur votre prochaine étape. Il est impossible de sauter avec des vaisseaux hostiles à moins de 6 km.
+
+## Détails des étoiles et filtres
+
+Le panneau latéral propose plusieurs onglets : ÉTOILE détaille l'astre sélectionné (économie, niveau tech, sécurité, superpuissance qui la contrôle, faction dirigeante et état), FILTRE met en surbrillance les étoiles par économie, niveau tech, sécurité, missions ou marchandise recherchée, ROUTES suggère des circuits commerciaux rentables, PUISSANCES montre les territoires des superpuissances, RECH permet de rechercher une étoile par son nom, et l'onglet étoile regroupe vos favoris. Dans RECH, choisissez les lettres au D-pad et Cross (ou touchez-les) ; la liste affiche toutes les étoiles dont le nom commence par votre saisie, par ordre de proximité. Descendez dans la liste et Cross sélectionne une étoile et centre la carte sur elle ; un second Cross valide la route. Square efface une lettre. Quand des filtres sont actifs, l'onglet FILTRE s'affiche en jaune. Appuyez sur Triangle pour changer d'onglet. Square sur la carte affiche la carte du système de l'étoile choisie, où Cross sur une station trace une route directe vers elle.
+
+## Favoris et port d'attache
+
+L'onglet étoile conserve les étoiles et lieux où vous revenez souvent. La première ligne est votre station d'attache : Cross trace la route du retour, avec la station comme cible nav dès l'arrivée. La seconde ligne ajoute l'étoile choisie (ou la retire). Pour ajouter un lieu spécifique, comme une station ou une ceinture, sélectionnez-le sur la carte du système et appuyez sur Select. Cross sur un favori trace une route vers lui, ou le définit comme cible nav s'il se trouve dans ce système ; Square le retire. Vous pouvez en conserver jusqu'à 24. Chaque lieu indique son étoile et sa distance. Un H doré signale votre étoile d'attache sur la carte galactique et votre station d'attache dans la liste du système. Choisissez « Définir comme port d'attache » dans les Services d'une station : le carburant et les réparations y coûtent moitié prix et les prix sont 2% plus avantageux, comme le marché vous le rappelle.
+
+## Systèmes sans loi
+
+Les systèmes de niveau technologique inférieur à 5 ne possèdent aucune force de police. Ils sont signalés sur la carte. Les pirates y sont bien plus nombreux, mais les marchés noirs également.
+
+[img galaxy-map.png | The galaxy map, with a course plotted]
+
+# Amarrage
+
+La station tourne sur elle-même. Son sas d'accès se trouve sur l'une de ses faces : volez vers lui, synchronisez votre roulis avec le stick droit et entrez à moins de 100 m/s. Heurter la coque endommage votre vaisseau, et la géométrie de la station est solide. À chaque amarrage, une baie d'atterrissage (PAD) vous est attribuée, indiquée à l'approche et sur le panneau du hangar ; les grandes stations possèdent davantage de baies.
+
+## Ordinateur d'amarrage
+
+À moins de 2 km de la coque d'une station, appuyez sur Cross et l'ordinateur d'amarrage prend les commandes : il se positionne face au sas, synchronise sa rotation avec la station et entre. Appuyez de nouveau sur Cross pour reprendre le contrôle manuel. Les vaisseaux vendus 90 000 cr et plus en sont équipés de série ; pour les autres, c'est un module à acheter.
+
+## À la station
+
+Le menu de la station comporte deux onglets (L/R pour basculer). Marché achète et vend les marchandises. Services permet de faire le plein, de réparer le vaisseau, de payer les amendes, d'ouvrir le panneau des missions, le chantier spatial et l'équipement, d'acheter des rapports de marché et de faire de la station votre port d'attache. Circle vous propulse à nouveau dans l'espace.
+
+## Autres stations
+
+En plus de sa station orbitale principale, chaque système abrite des bases secondaires : avant-postes miniers, raffineries de gaz, centres de recherche et stations d'extraction en ceinture d'astéroïdes. Chacune possède son propre marché ; les raffineries vendent le carburant à très bas prix. Seule l'orbitale principale propose un chantier spatial. Repérez-les sur la carte du système.
+
+[img docking-computer.png | The docking computer on its final approach]
+
+# Commerce
+
+Chaque étoile possède son économie propre : agricole, industrielle, minière ou high-tech. Chacune produit certaines marchandises à bas coût et en rémunère d'autres à prix d'or, et les cours évoluent entre vos visites. Achetez là où une marchandise est abondante et bon marché, et vendez là où elle est rare.
+
+## Le marché
+
+D-pad droite achète une unité, D-pad gauche en vend une. Les flèches indiquent l'évolution du cours depuis votre dernier décollage de cette station. Les narcotiques sont illicites : seuls les marchés noirs sans loi les acceptent, et les douanes vous fouilleront à l'amarrage dans une station sécurisée.
+
+## Routes commerciales
+
+L'onglet ROUTES de la carte galactique recense les circuits rentables d'après les prix que vous connaissez, les meilleurs en premier. Chaque station où vous vous amarrez enrichit cette base de prix. Les rapports de marché, sous Services, achètent les cours des étoiles dans un rayon de 10 al pour 20 cr par étoile. Les bénéfices indiqués sont des estimations qui tiennent compte de votre capacité de soute, de vos crédits et du carburant. Appuyez sur Cross sur une route pour la tracer : vers la source d'abord si vous n'y êtes pas, avec la station visée comme cible nav.
+
+## Avant-postes
+
+Les avant-postes vendent les minéraux à bas prix et paient bien les vivres et le matériel industriel ; les centres de recherche vendent des médicaments, des ordinateurs et des robots ; les raffineries vendent le carburant à moitié prix.
+
+[img market.png | A station market]
+[img routes.png | Trade routes on the galaxy map]
+
+# Missions
+
+Choisissez Panneau des missions sous Services pour consulter les contrats disponibles : 8 à 12 offres à chaque escale, réparties par onglets : TOUTES, COMBAT, COMMERCE, COURSIER et PASSAGERS (L/R pour naviguer, ou touchez un onglet). Chaque mission indique la distance de son système et le nombre de sauts nécessaires avec votre moteur, ou « hors de portée » en rouge si votre réservoir ne peut l'atteindre. Haut/Bas choisit une mission, Cross l'accepte, Gauche/Droite bascule entre les offres locales et vos missions actives. Sur le panneau, Square (ou SUR LA CARTE GALACTIQUE) ouvre la carte galactique sur l'étoile visée avec la route tracée, sans accepter la mission ; Circle revient en arrière. Sur vos missions actives, Cross (ou TRACER LA ROUTE) calcule l'itinéraire et Square appuyé deux fois abandonne le contrat. Les destinations s'affichent sous forme de losanges sur la carte galactique.
+
+Chaque contrat est proposé par l'une des factions du système, indiquée dessous avec le gain d'influence et de réputation associé. Les missions les plus lucratives exigent une meilleure réputation auprès du commanditaire : ces offres sont grisées avec le rang requis (voir Puissances et factions).
+
+- Livraison : la cargaison est chargée pour vous ; transportez-la à destination avant la date limite.
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+- Approvisionnement : une station manque de marchandises ; achetez-les ailleurs et livrez-les là-bas. Tant qu'elle en a besoin, la station (et les marchés de son système) n'en vend pas : le marché affiche BESOIN dans sa colonne de stock. Si vous avez déjà les marchandises à bord en acceptant le contrat sur place, il est prêt à être rendu aussitôt.
+- Coursier : livrez un message. Les colis « sans poser de questions » paient davantage mais sont considérés comme de la contrebande.
+- Passagers : transportez un passager (ou un groupe jusqu'à trois) vers un autre système. Chaque passager occupe 1 t de votre soute. Les VIP rapportent le plus ; certains passagers sont recherchés : attendez-vous à des ennuis.
+- Prime : un pirate désigné et son ailier vous attendent dans un autre système. Détruisez-les, puis amarrez-vous pour toucher votre récompense.
+
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+Quand vous vous amarrez là où une mission se termine, elle devient PRÊTE, et l'onglet Services indique combien attendent. Ouvrez Panneau des missions > ACTIVES, où les missions prêtes figurent en tête, et rendez-en une avec Cross (ou RENDRE) pour être payé. Choisissez votre récompense : CRÉDITS verse la récompense entière ; + INFLUENCE verse 75 % et donne à la faction commanditaire trois fois l'influence habituelle là où elle a proposé le contrat ; + RÉPUTATION verse 60 % et triple le gain de réputation auprès du commanditaire. Triangle (ou TOUT RENDRE) rend d'un coup toutes les missions prêtes, en crédits. Les passagers et la cargaison de livraison restent à bord jusqu'à ce que vous rendiez la mission. Les primes sont payées dès l'amarrage. Chaque mission accomplie augmente votre réputation auprès du commanditaire. Si le temps expire, même avec une mission prête, elle échoue et votre réputation baisse ; abandonner un contrat coûte moitié moins cher.
+
+[img bulletin-board.png | The bulletin board]
+
+# Minage
+
+Les ceintures d'astéroïdes recèlent du cuivre, de l'argent, de l'or et, plus rarement, des opales du vide. Définissez la ceinture comme cible nav sur la carte du système et passez en warp vers elle.
+
+## Lasers et conteneurs
+
+Tirez sur un rocher : après quelques impacts, une tonne de minerai se détache et dérive sous forme de conteneur. Interceptez les conteneurs à moins de 250 m/s avec un collecteur de fret équipé pour les hisser à bord. Si vous ramassez des biens illicites, le message vous avertit de l'endroit où cela vous vaudra une amende : ici, sur un système de votre route, ou dans tout système sécurisé. Ciblez un rocher ou un conteneur depuis la liste des contacts et le suivi automatique s'alignera pour vous y conduire.
+
+## Scanner minier
+
+Sans scanner, les astéroïdes apparaissent tous en gris uniforme. Avec un scanner, entrer dans un champ révèle le contenu de chaque rocher, colore les roches selon le minerai et les répertorie dans l'onglet ROCHES de la liste des contacts avec leur teneur.
+
+## Charges minières
+
+Les vaisseaux de minage (le Prospector et le Rockbreaker) emportent des charges explosives à 250 cr l'unité. Sélectionnez un rocher, ou visez-en un à moins de 5 km, et appuyez sur Circle : la charge le fait exploser et libère le double du minerai restant. Tirez à distance : l'onde de choc endommage tous les vaisseaux proches, le vôtre compris, et toucher des marchands ou des policiers avec le souffle constitue un crime. Le Prospector et le Rockbreaker obtiennent en outre 1,5 fois plus de minerai.
+
+Les systèmes miniers paient le minerai au plus bas ; les systèmes high-tech, industriels, les raffineries et les centres de recherche le paient au plus haut.
+
+[img mining.png | An asteroid field, with the mining scanner showing each rock's ore]
+
+# Combat
+
+Les pirates tendent des embuscades aux marchands, plus fréquemment dans les systèmes sans loi. Battez-vous, fuyez ou appelez la police dans un système sous juridiction : ils combattent aussi les pirates.
+
+## Cibles
+
+Le vaisseau hostile le plus proche est ciblé automatiquement. D-pad Haut/Bas fait défiler les vaisseaux à portée, puis « aucune cible ». En bataille, la cible suivante sera un autre vaisseau de la même escadre s'il en existe un à moins de 6 km. Réglez Cible auto (menu pause, HUD et Ciblage) sur MENACE et lorsque votre cible est détruite, la suivante sera le vaisseau qui vous tire dessus, puis celui qui vous vise, puis l'hostile le plus proche ; une ligne SUIVANT le nomme. Réglez-le sur ESCADRE et en bataille vous éliminez une escadre entière avant de passer à la suivante : la cible suivante sera un appareil de la même escadre à n'importe quelle distance, Haut/Bas fait défiler cette escadre en priorité, et la ligne SUIVANT indique combien il en reste et prévient dès qu'une escadre est anéantie (les numéros d'escadre forment la colonne située avant la distance dans la liste des contacts). Choisissez une cible vous-même et le ciblage la conservera. Dans une mêlée chargée, le bouton FILTRE (l'entonnoir près de CAM) ou un appui sur l'en-tête SHIPS n'affiche que les hostiles : l'en-tête devient SHIPS (H), et Haut/Bas ignore les alliés, marchands et policiers neutres. Touchez de nouveau pour revoir tous les vaisseaux. D-pad droite verrouille toujours ce qui se trouve directement sous votre réticule. La cible est entourée de crochets, ou d'une flèche autour du réticule lorsqu'elle est hors champ, et son panneau indique sa distance, sa vitesse de rapprochement, son rang, ses boucliers et sa coque.
+
+## Armes
+
+Square fait feu. Le laser à impulsions et l'autocanon tirent des projectiles qui mettent du temps à arriver : visez le point de guidage prédictif (le losange lié à la cible, qui vire au vert dès que vous êtes dessus). Les lasers à faisceau et militaires touchent instantanément. Les lasers montent en température en tirant et cessent de fonctionner en cas de surchauffe ; l'autocanon ne surchauffe jamais mais consomme des munitions. Le bouton 1/2 permet de basculer instantanément entre votre laser et votre canon.
+
+## Missiles et leurres
+
+Pointez un vaisseau à moins de 8 km jusqu'à ce que M-LOCK apparaisse, puis appuyez sur Circle. Touchez le compteur de missiles pour armer ou sécuriser vos missiles. Lorsqu'un missile est verrouillé sur vous, un encadré MISSILE s'affiche : touchez-le pour larguer des leurres, qui le déroutent généralement.
+
+## Boucliers et coque
+
+Les boucliers absorbent les tirs et se rechargent ; la coque ne se régénère pas, faites-la réparer en station. En mode Ultra, l'hologramme de votre vaisseau clignote quand vos boucliers sont touchés et devient rouge à mesure que la coque subit des dégâts. Si la coque tombe à zéro, votre vaisseau est détruit et vous rechargez votre dernière sauvegarde.
+
+## Hologrammes
+
+En mode Ultra, deux hologrammes encadrent le scanner. Celui de droite représente votre vaisseau avec sa peinture et ses anneaux de bouclier. Celui de gauche suit votre cible actuelle : un vaisseau sélectionné pour l'attaque ou le suivi (avec ses propres boucliers, ses dégâts et un projecteur rouge s'il est hostile), un rocher ou un conteneur de fret. Lorsque l'assistance warp pilote, il affiche à la place votre cible nav, par exemple une station avec son modèle réel et son sas en surbrillance dorée. Sans cible ni destination nav, l'écran reste vide. Le réglage Hologrammes permet de choisir entre CONTOUR (petit et rotatif sur le tableau de bord) et DIRECT (en relief au-dessus du tableau de bord, avec nom et distance ; une flèche dorée pointe vers le sas d'une station lorsqu'elle tourne le dos).
+
+## Pirates et primes
+
+Les pirates se déclinent en quatre rangs : Novice, Compétent, Vétéran et As, aux commandes de tout type d'appareil, du chasseur léger au navire de guerre lourd. De meilleurs pilotes dans de plus gros vaisseaux sont plus redoutables et rapportent des primes plus élevées. En espace sécurisé, une prime est délivrée sous forme de bon de prime à encaisser dans ce système (voir Puissances et factions). Les épaves libèrent souvent des conteneurs de fret.
+
+## Rang de combat
+
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+Votre rang de combat gravit les échelons classiques, d'Inoffensif jusqu'à ÉLITE, puis au-delà jusqu'à APEX, PARANGON et MYTHIQUE, chaque palier étant bien plus long à atteindre que le précédent. Chaque vaisseau détruit (pirates, cibles de prime et ennemis en zone de conflit) rapporte des points selon le rang de son pilote : Novice 1, Compétent 2, Vétéran 3, As 5. Les pilotes plus faibles rapportent moins dès que vous les surpassez nettement : aux rangs Compétent et Dangereux, un Novice ne vaut que 0,4 ; au rang Mortel, un Novice ne vaut que 0,1 et un Compétent 0,8. Le message de destruction indique le gain obtenu, et l'écran Commandant affiche votre progression.
+
+## Zones de conflit
+
+Un système en guerre compte trois zones de conflit (intensité faible, moyenne et haute), et deux zones en cas de guerre civile. Elles apparaissent sur la carte du système en jaune, orange et rouge ; définissez-en une comme cible nav une fois dans le système et passez en warp vers elle. L'onglet INFOS de l'écran Commandant vous conduit directement aux zones actives. À moins de 12 km, les deux camps s'affrontent et un encadré vous invite à choisir votre allégeance : Gauche/Droite sélectionne un camp, Cross vous engage, Circle vous fait rester spectateur. Si vous restez neutre, un encadré REJOINDRE LA BATAILLE reste disponible pendant 45 secondes à l'emplacement de l'alerte missile : touchez-le pour choisir un camp. Il disparaît dès qu'un camp atteint 60% de victoires, vous ne pouvez pas rejoindre un camp sur lequel vous avez tiré, et une fois engagé vous restez fidèle à ce camp jusqu'à votre départ. Vos alliés apparaissent en vert et les ennemis en rouge, sur les contacts, le radar et dans l'espace. Les destructions remplissent la jauge de chaque camp en haut de l'écran, les vaisseaux imposants et les as rapportant davantage ; le premier camp à remplir sa jauge gagne la bataille et les vaincus sautent en hyperespace. La zone redevient alors calme, grisée sur la carte du système et tenue par les vainqueurs, jusqu'à la semaine de guerre suivante où chaque zone pacifiée rouvre ailleurs. Les zones de faible intensité opposent de petits groupes de chasseurs légers, les zones de haute intensité déploient de lourds navires et des as par vagues successives. Aucune police n'intervient. Un tir égaré touchant un allié dans la mêlée est pardonné, mais persister déclenchera un avertissement puis la riposte de tout votre camp ; détruire un allié est très sévèrement puni. Tirer sur l'un ou l'autre camp tout en restant spectateur montera ce camp contre vous (une collision accidentelle ne compte pas). Environ un tiers des forces ennemies vous prend pour cible à la fois. Livrée à elle-même, une bataille dure quelques minutes ; vos victoires accélèrent l'issue. Quitter la zone met fin à l'affrontement ; à votre retour, vous pourrez choisir à nouveau votre camp. La guerre continue aussi sans vous : chaque semaine, les zones que vous n'avez pas disputées sont résolues automatiquement, et un camp qui rafle toutes les victoires fait la une des nouvelles.
+
+## Vaisseaux amiraux
+
+Dans une guerre opposant deux grandes superpuissances, environ la moitié des zones de haute intensité voit intervenir un vaisseau amiral : un mastodonte de 1 600 m du Commonwealth (le croiseur de bataille classe Bastion), de l'Ascendance (le cuirassé classe Imperator) ou de l'Accord (le porte-vaisseaux classe Concord). En général, l'un d'eux est déjà sur zone à votre arrivée ; sinon, il effectue un saut hyperspatial dans les deux minutes, précédé d'une alerte et d'une fenêtre de saut bleue. Dans environ un combat sur quatre, les deux camps en déploient un (un vaisseau amiral isolé voit souvent son rival arriver en renfort dans la minute), et les deux titans échangent des bordées dévastatrices à travers la zone de combat. Un vaisseau amiral se place de flanc face à l'ennemi, et les renforts de son camp décollent directement de la baie située sur son flanc. Laissez-lui de l'espace : sa coque est impénétrable aux collisions, et deux de ses tourelles tirent sur les vaisseaux ennemis proches (vous y compris si vous combattez dans le camp adverse). L'option Vaisseaux amiraux (onglet Settings) permet de réduire leur présence ou de les désactiver.
+
+Les deux camps volent en escadres de deux ou trois appareils. Une escadre choisit une cible et s'y tient, généralement une escadre adverse ; une seule escadre ennemie au maximum vous prend en chasse à la fois, ce qui vous permet de vous battre aux côtés de vos alliés sans attirer toute la flotte ennemie. Touchez un vaisseau et toute son escadre se retourne contre vous ; l'escadre alliée la plus proche viendra vous prêter main-forte. Pour reprendre votre souffle, éloignez-vous à plus de 6 km du centre de la bataille : l'ennemi décrochera et vos boucliers pourront se recharger pendant que le combat continue sans vous. Une escadre à laquelle vous avez abattu un coéquipier se souviendra de vous pendant une minute et foncera droit sur vous si vous revenez trop tôt.
+
+Un vaisseau amiral dispose de sa propre ligne tout en haut de la liste des contacts Vaisseaux. Sélectionnez-le avec D-pad Haut/Bas, ou pointez-le et appuyez sur D-pad droite. Son bouclier principal absorbe tous vos tirs tant que l'un de ses quatre relais thermiques reste intact : ces relais forment des lueurs orange le long de ses flancs. Une fois le vaisseau sélectionné, appuyez de nouveau sur D-pad droite pour cibler un relais spécifique (Relais thermique 2 sur 4 sur le panneau de cible, marqué d'un repère doré sur la nef) et appuyez encore pour passer au suivant, puis revenir à la coque générale. Vos lasers ne font de dégâts que lorsqu'ils frappent la lueur du relais désigné, et les missiles s'y verrouillent directement. Quand les quatre relais sont détruits, le bouclier tombe définitivement : vos lasers, vos missiles et le vaisseau amiral allié peuvent alors entamer sa coque. Détruire un vaisseau amiral rapporte un bon de combat de 15 000 cr, de la réputation et dix points de rang de combat (à condition d'avoir porté le coup fatal ou infligé une part significative de ses dégâts), et remplit la jauge de victoire de votre camp de 30 points. Il périt dans une chaîne d'explosions spectaculaires, laissant une épave à la dérive pour le reste du combat ; l'écran Commandant comptabilise vos vaisseaux amiraux abattus.
+
+Lorsqu'un camp est largement dominé, son vaisseau amiral évalue une unique fois s'il doit battre en retraite ou lutter jusqu'au bout. S'il bat en retraite, il charge son moteur de saut pendant 15 secondes (VAISSEAU AMIRAL : SAUT EN CHARGE avec compte à rebours) : il ne lance plus aucun renfort, le détruire pendant ce délai paie l'intégralité de la prime, et s'il s'échappe, la jauge ennemie progresse de 15 points. S'il décide de lutter, il continue de lancer des chasseurs jusqu'au bout ; si son camp perd, les vainqueurs l'achèvent. Les deux dénouements font la une des informations.
+
+Chaque ennemi abattu rapporte un bon de combat émis par votre camp (environ 1,5 fois la valeur d'une prime de pirate), et remporter une bataille à laquelle vous avez pris part octroie un bon bonus (plus important pour les batailles d'envergure), de la réputation et un gain d'influence pour votre camp dans le système : +1%, +2% ou +3% pour une zone faible, moyenne ou haute lors de la mise à jour hebdomadaire suivante, pris directement sur l'influence ennemie. Perdre un combat où vous avez combattu octroie la moitié de ce gain à l'adversaire. Les bons de combat s'encaissent dès votre amarrage dans n'importe quel spatioport où la faction est présente, y compris dans le système en guerre. Le contrôle d'un système n'est attribué qu'au terme de la guerre : soutenez votre faction au fil des semaines d'affrontement.
+
+## Suivi automatique
+
+D-pad droite verrouille le vaisseau situé directement sous votre réticule : il devient votre cible prioritaire, et votre verrouillage de missile reste fixé sur lui au lieu de sauter sur d'autres cibles. Tant que la cible reste devant vous, D-pad droite maintient le verrouillage. Avec un module de suivi auto équipé, appuyer sur D-pad droite sur votre cible fait en sorte que votre vaisseau la prenne en chasse, se calant à environ 600 m derrière elle pendant que vous faites feu ; appuyez à nouveau ou bougez le stick pour reprendre le contrôle manuel. Désactivez le Suivi auto dans le menu pause si vous préférez piloter intégralement chaque combat : la touche droite se contentera alors de verrouiller. Le verrouillage de missile adopte la couleur des contacts du vaisseau (rouge uniquement pour les ennemis et pirates) ; l'option Couleurs verrouillage permet de le forcer toujours en rouge.
+
+[img curved-hud.png | The curved combat HUD]
+
+# Énergie
+
+Votre vaisseau répartit six barres d'énergie entre l'armement (W), les moteurs (E) et les boucliers (S), à raison de deux barres chacun par défaut. Maintenez l'anneau PWR en haut à droite (ou le coin supérieur gauche du pavé tactile arrière, selon vos réglages) et appuyez sur le D-pad :
+
+- Haut : transfère une barre vers les armes, augmentant les dégâts et réduisant la surchauffe par tir.
+- Gauche : transfère une barre vers les moteurs, augmentant la poussée, la vitesse de pointe et la maniabilité.
+- Droite : transfère une barre vers les boucliers, accélérant leur rechargement.
+- Bas : réinitialise à deux barres par système.
+
+Chaque système peut recevoir jusqu'à quatre barres. La répartition se réinitialise à deux barres partout à chaque décollage.
+
+[img power.png | Setting power: the E W S pips above the dash]
+
+# La loi
+
+Les systèmes d'un niveau technologique de 5 ou plus sont protégés par la police. Les patrouilles de police apparaissent en bleu sur le scanner, les pirates en rouge, les marchands en vert et les cibles de prime en orange.
+
+## Crimes
+
+- Faire feu avec vos armes à moins de 4 km d'une station, sauf en état de légitime défense face à des pirates proches.
+- Tirer sur des marchands ou sur la police. Détruire un vaisseau de police fait immédiatement de vous un fugitif recherché.
+- Transporter de la contrebande, détectée par les douanes à l'amarrage ou lors d'un scan de police en vol.
+
+## Statut légal
+
+- Propre (Clean) : aucun casier, aucune infraction.
+- Contrevenant (Offender) : vous avez des amendes impayées. Régularisez-les dans les Services d'une station. Si vous les laissez impayées pendant 30 jours, ou si leur montant dépasse 1 000 cr, vous devenez un fugitif.
+- Fugitif (Fugitive) : les stations sécurisées sous juridiction vous refusent tout amarrage et la police vous attaque à vue. Purgez votre casier auprès d'une station sans loi (marché noir).
+
+Vous pouvez larguer de la cargaison depuis le menu pause en vol, mais jamais sous le regard d'une patrouille de police.
+
+# Puissances et factions
+
+Trois grandes superpuissances se partagent les étoiles proches de Sol. Le Commonwealth Solaire, issu de Sol, est une démocratie corporatiste dotée de la police la plus stricte de la galaxie. L'Ascendance Sirienne, issue de Sirius, est gouvernée par des maisons nobles unies par des liens de clientèle. L'Accord des Mondes Libres, issu de Lacaille 8760, est une confédération de colonies minières et agricoles indépendantes. Chacune contrôle les systèmes sous juridiction situés dans un rayon d'environ 14 années-lumière autour de sa capitale. Les systèmes sécurisés plus éloignés sont indépendants, et les systèmes sans loi (en dessous du tech 5) n'appartiennent à aucune puissance.
+
+## Qui dirige un système
+
+Chaque système compte deux à quatre factions mineures qui se partagent l'influence locale. Celle qui possède la plus forte influence contrôle les stations, et sa propre police devient la police officielle du système : vous entendrez ses agents vous héler à la radio, les écrans de la station indiquent qui assure la sécurité, et en mode Ultra leurs vaisseaux arborent les couleurs de leur puissance (bleu, ambre, orchidée ou acier pour les indépendants). Une faction peut être affiliée à une puissance ou être autonome ; un gang pirate peut détenir une part d'influence, même en plein cœur d'un espace sécurisé.
+
+## L'onglet PUISSANCES
+
+Le quatrième onglet de la carte galactique colore la galaxie selon les allégeances : un halo teinté aux couleurs de chaque puissance (le mode Classique colore directement les étoiles), les capitales cerclées, les guerres tracées par des lignes tiretées rouges vers le système ennemi le plus proche, et les systèmes frontaliers encadrés de cornières aux couleurs du camp qui exerce la pression. Gauche/Droite permet de masquer les halos ou les lignes de guerre. Cross sur une puissance liste ses systèmes, sa capitale en tête ; Haut/Bas fait défiler la liste et Cross trace une route directe. Circle referme la liste.
+
+## États du système
+
+Tous les 7 jours, l'influence de chaque système évolue. Vos missions augmentent l'influence de la faction qui les a émises, dans le système où elle les propose ; encaisser des bons de prime et vendre des marchandises renforce la faction au pouvoir ; détruire ses policiers ou ses marchands, ou échouer à ses missions, lui fait perdre du terrain. Chaque faction dérive aussi naturellement au fil du temps. Lorsque la faction pour laquelle vous militez dépasse les autres, elle prend le contrôle du système et installe sa police. Durant une guerre, une guerre civile ou une élection, les dirigeants restent en place jusqu'à la fin du scrutin ou du conflit ; le vainqueur prend alors le pouvoir. Les dirigeants en place bénéficient d'une légère prime au sortant : sans intervention extérieure de pilotes comme vous, rares sont les systèmes qui changent de mains spontanément.
+
+Chaque système peut basculer dans un état spécifique, qui dure une semaine ou davantage. L'onglet ÉTOILE et la carte du système l'affichent clairement, avec le décompte des jours restants, le régime de la faction dominante, l'influence de chaque faction et ses belligérants éventuels :
+
+- Boom / Essor (fort volume de commerce ou de livraisons) : prix de vente 10% plus élevés, surplus de missions commerciales.
+- Récession / Bust (survient souvent après un essor) : marchandises 10% moins chères à l'achat et revendues 10% de moins, moins de contrats.
+- Expansion (une faction atteint 68% d'influence ou plus) : elle essaime dans un système voisin.
+- Élection (deux factions pacifiques au coude-à-coude) : surplus de missions de coursier ; le pouvoir sortant l'emporte généralement, sauf si vous soutenez activement l'opposition.
+- Troubles civils (criminalité élevée ou gang pirate influent) : armes 20% plus chères, recrudescence de pirates dans l'espace.
+- Confinement / Lockdown (consécutif à des troubles) : chantier spatial et équipement fermés, contrôles de police systématiques.
+- Guerre civile (deux factions locales au coude-à-coude, dont une faction sans loi) : surplus de missions de combat.
+- Guerre (conflit armé frontalier entre factions de deux superpuissances) : armes à +20% et médicaments à +25%, nombreuses missions militaires.
+
+## Frontières
+
+Un système sous juridiction situé à moins de 8 années-lumière du territoire d'un autre camp (une autre superpuissance ou les indépendants) constitue une frontière ; les autres sont des systèmes intérieurs de cœur de territoire. Chaque semaine, les voisins exercent une pression sur la frontière : leurs factions locales y gagnent du terrain, d'autant plus qu'ils possèdent de systèmes voisins et qu'ils sont proches de leur capitale ; un rival sans faction sur place peut même y implanter une cellule. Le pouvoir sortant s'appuie quant à lui sur ses propres systèmes voisins pour résister. Les systèmes intérieurs ne subissent aucune pression extérieure, bien que des élections et guerres civiles locales puissent s'y produire. Livrée à elle-même, une frontière bascule tous les quelques années ; une mission par semaine pour les dirigeants suffit généralement à tenir la position. Une puissance qui s'étend démesurément voit sa pression s'affaiblir, tandis qu'une puissance affaiblie lutte avec plus de férocité, empêchant une puissance unique d'écraser la carte. Les factions mineures évoluent également : une faction réduite à une influence quasi nulle peut disparaître, et une faction éteinte peut ressurgir dans son système d'origine.
+
+Lorsqu'une faction rivale menace directement les dirigeants d'une frontière, les bulletins d'information annoncent que la frontière est sous pression.
+
+Lorsque vous arrivez après un saut hyperspatial, le fil d'actualité vous informe des soubresauts géopolitiques des systèmes proches. L'onglet INFOS de l'écran Commandant compile ces nouvelles : sa liste Points chauds montre où vos actions peuvent faire basculer l'équilibre (guerres et guerres civiles d'abord, puis élections, courses serrées, troubles et expansions imminentes), avec l'influence des forces en présence, votre réputation auprès d'elles, les jours restants, le temps de trajet estimé (en ambre si l'événement risque de se terminer avant votre arrivée, en rouge s'il est probablement clos) et les actions recommandées ; les Titres en dessous forment la gazette galactique, de la plus récente à la plus ancienne (essor, récession, troubles et projets d'expansion dans un rayon de 15 al). CROSS sur l'une d'elles affiche l'étoile sur la carte galactique (ou la carte du système avec ses zones de conflit en cas de guerre), SQUARE trace une route directe, et CIRCLE revient à l'écran précédent.
+
+## Réputation
+
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+Votre réputation auprès de chaque faction oscille entre -100 et +100, répartie en échelons : Hostile, Inamical, Neutre, Cordial (dès +20), Amical (dès +40) et Allié (dès +70). Une mission accomplie augmente votre réputation auprès du commanditaire de 2 à 8 points selon la paie (le triple si vous la rendez avec + RÉPUTATION) ; les ennemis de ce commanditaire (le camp opposé d'une guerre) perdent la moitié de cette valeur, et la superpuissance affiliée en gagne environ un quart. Répondre à un appel de détresse en espace sous juridiction vous attire la sympathie des dirigeants du système ; détruire des vaisseaux policiers ou civils ruine votre réputation.
+
+Une mauvaise réputation ne vous bloque jamais totalement : l'amarrage n'est jamais refusé et la police ne vous attaque pas pour votre simple allégeance politique. Néanmoins, une faction qui vous considère Inamical ne vous proposera que ses missions les plus ingrates et appliquera une majoration de 5% à ses stations ; si vous êtes Hostile, elle refusera tout contrat et pénalisera ses prix de 10%.
+
+## Bons de prime
+
+En espace sécurisé, la prime pour la destruction d'un pirate est remise sous forme d'un bon de prime émis par la faction régnante du système, et non en crédits immédiats. Amarrez-vous dans une station contrôlée par cette faction pour l'encaisser (le versement a lieu dès l'amarrage, accompagné d'un léger bonus de réputation). Les bons restent en mémoire dans votre carnet de vol, mais ne sont en sécurité qu'une fois encaissés : si votre vaisseau est détruit, vous revenez à votre dernière sauvegarde. Dans les systèmes sans loi, aucune autorité n'émettant de bons, les primes pirates y sont payées comptant sur-le-champ.
+
+[img factions.png | The Commander screen's FACTIONS tab]
+
+[img powers.png | The galaxy map's POWERS tab, with the wars marked]
+
+# Vaisseaux et équipement
+
+La station orbitale principale de chaque système abrite un chantier spatial (Services, Chantier spatial et équipement). L/R bascule entre Équipement, Vaisseaux à vendre et Peinture ; Cross valide l'achat.
+
+## Acheter un vaisseau
+
+Votre vaisseau actuel est repris à 70% de sa valeur marchande, et les équipements incompatibles avec la nouvelle nef sont revendus à moitié prix. Les vaisseaux plus imposants exigent un chantier spatial d'un niveau technologique plus élevé. Square filtre la liste des navires par rôle. La page VAISSEAUX de ce manuel répertorie l'ensemble de la flotte disponible.
+
+## Points d'emport
+
+Les navires légers peuvent monter des lasers à impulsions et à faisceau ; les navires moyens et lourds peuvent également équiper le redoutable laser militaire. Les vaisseaux de gros tonnage disposent de davantage de points d'emport d'armes et de canons qui font tous feu de concert : la puissance de feu est décuplée, mais chaque arme installée est facturée pour chaque point d'emport équipé.
+
+## Équipement
+
+Lasers, générateurs de bouclier, missiles, lance-leurres, extensions de soute et modules spécialisés : ordinateur d'amarrage, collecteur de fret et récupérateur de carburant, module de suivi automatique, assistance warp et scanner minier. Les stations de faible niveau technologique proposent un choix plus restreint. La page ÉQUIPEMENT de ce manuel détaille l'intégralité du catalogue.
+
+## Récupérateur de carburant
+
+Frôlez une étoile à moins de 15% de son rayon par rapport à sa surface et le carburant affluera dans vos réservoirs, d'autant plus vite que vous plongerez au plus près de la couronne stellaire, même en vitesse de distorsion warp. Gardez l'œil fixé sur l'arc de température : trop près de l'astre, la coque surchauffe et s'embrase.
+
+## Peinture et nom
+
+L'onglet PEINTURE permet de personnaliser la livrée de votre navire : choisissez une livrée avec Gauche/Droite, ou personnalisez les teintes de base, d'accent et de finition parmi les palettes proposées (touchez une pastille, ou naviguez avec Gauche/Droite). La maquette 3D prévisualise vos choix en direct ; Appliquer la peinture coûte 500 cr. La fonction Nom vous permet de baptiser gratuitement votre vaisseau d'un nom comptant jusqu'à 16 caractères. La peinture et le nom sont attachés au vaisseau : acheter une nouvelle nef vous remettra aux commandes d'un modèle blanc et orange d'usine, sans nom. Le nom apparaît sur l'écran Commandant et sur votre fiche de sauvegarde. Les peintures sont visibles en mode graphique Ultra, où la police, les pirates, les marchands et les mineurs arborent également leurs livrées de faction respectives, avec feux de navigation rouge et vert en bout d'aile et stroboscope blanc.
+
+[img paint.png | The PAINT tab on Ultra]
+
+[img outfitting.png | Outfitting at the shipyard]
+
+# Commandant et sauvegardes
+
+Vous déterminez votre nom lors de la création de votre profil. Appuyez sur Square en cours d'amarrage, ou sélectionnez Statut du commandant dans le menu pause, pour consulter vos états de service.
+
+## Rangs
+
+- Combat, d'après les pirates et ennemis abattus : d'Inoffensif (Harmless) jusqu'à ÉLITE.
+- Commerce, d'après les bénéfices de négoce réalisés : de Sans-le-sou (Penniless) jusqu'à ÉLITE.
+- Exploration, d'après les systèmes visités et la distance franchie : de Sans but (Aimless) jusqu'à ÉLITE.
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+- Au-delà d'ÉLITE, chaque échelle se poursuit avec APEX, PARANGON et MYTHIQUE : quatre fois le seuil d'ÉLITE pour APEX, puis six fois plus, puis encore six fois plus. ÉLITE et les rangs supérieurs s'affichent en or.
+
+L'onglet Plus recherchés consigne les primes les plus colossales que vous avez touchées. L'onglet FACTIONS détaille votre niveau de réputation auprès des trois superpuissances et de chaque faction mineure rencontrée (par ordre de proximité ; Haut/Bas fait défiler), ainsi que vos bons de prime en attente. L'onglet INFOS a été présenté au chapitre Puissances et factions. L'onglet MESSAGES récapitule les 16 dernières communications radio enregistrées, des plus récentes aux plus anciennes, vous permettant de relire à tête reposée les messages défilés trop vite dans le feu de l'action. Gravissez les échelons de l'Ascendance Sirienne et elle vous anoblira de titres honorifiques prestigieux : Écuyer au rang Cordial, Chevalier au rang Amical, et Baron au rang Allié.
+
+## Sauvegarder
+
+L'écran titre comporte trois emplacements de sauvegarde : Haut/Bas choisit un profil, Cross lance la partie ou initialise un nouveau commandant, Square appuyé deux fois supprime la sauvegarde. Triangle affiche les crédits : les bibliothèques logicielles sur lesquelles repose le jeu et leurs licences respectives. Le jeu sauvegarde automatiquement à chaque amarrage en station, et le menu pause permet d'effectuer une sauvegarde en vol dès qu'aucun pirate ne se trouve à proximité. Pour changer de commandant sans quitter l'application, choisissez Sauvegarder et revenir au titre dans l'onglet Settings du menu pause.
+
+[img commander.png | The Commander status screen]
+
+# Paramètres
+
+Appuyez sur Start en vol ou en station pour ouvrir le menu pause. Chaque onglet est constitué de deux colonnes surmontant une rangée inférieure : Bas fait défiler la colonne de gauche, puis celle de droite, puis le groupe inférieur, et Gauche/Droite modifie le paramètre sélectionné. Sur l'écran tactile de la Vita, touchez une ligne pour la sélectionner et touchez-la à nouveau pour modifier sa valeur (la moitié droite augmente le réglage, la moitié gauche le diminue). Il existe trois onglets : Jeu, HUD et Ciblage, et Réglages (Settings). L'onglet Jeu présente votre vaisseau et votre statut à gauche, ainsi que les assistances de vol et de warp à droite. L'onglet Settings propose les options suivantes :
+
+- Graphismes : Classique filaire (wireframe vectoriel), Amélioré (Enhanced), ou Ultra avec surfaces planétaires détaillées, armatures de verrière de cockpit et hologrammes vivants.
+- Armatures de verrière : affiche ou masque les montants de la verrière en mode Ultra.
+- Hologrammes : mode d'affichage des hologrammes Ultra entre CONTOUR (discret et rotatif sur le tableau de bord) ou DIRECT (projeté en relief au-dessus du tableau de bord avec légende descriptive et distance).
+- Vaisseaux amiraux : COMPLET (FULL), LÉGER (LIGHT, un seul vaisseau amiral par affrontement, sans fenêtres éclairées) ou DÉSACTIVÉ (OFF). Baissez cette option si les batailles de grande envergure entraînent des ralentissements sur votre console.
+- Volume sonore, Sensibilité et Inversion du tangage.
+- Contrôle de l'énergie : maintenez l'angle tactile avant ou le coin supérieur gauche du pavé arrière pour répartir les barres d'énergie.
+- Langue : détermine la langue de l'ensemble des textes du jeu : Anglais, Allemand, Français, Espagnol, Italien ou Portugais brésilien. Les traductions signalées par (IA) ou (KI) sont des ébauches initiales conçues par IA ; les joueurs aident à les perfectionner sur GitHub. Le choix de langue est demandé une unique fois au premier démarrage sur l'écran titre.
+- Copier pour modifier : exporte le fichier de la langue active directement dans votre dossier de données (ux0:data/VoidTrader/VoidTrader/lang/) afin que vous puissiez tester vos propres corrections sur votre Vita ; le jeu lit en priorité votre copie locale, et la ligne Langue affiche alors la mention (modifié). Re-sélectionnez la langue pour recharger vos modifications à chaud. Supprimer ma copie efface le fichier local et réactive la version officielle intégrée au jeu. Pour soumettre vos améliorations : consultez le guide de traduction sur la page GitHub du projet.
+; 25 nov. 2026 : paragraphe mis à jour pour la v1.6.10/v1.6.11 (ébauche IA, Claude) - corrections bienvenues
+- Mises à jour : ON permet à l'écran titre de demander à la page GitHub du jeu, une fois par jour en Wi-Fi, si une nouvelle version est disponible ; rien d'autre n'est envoyé. Le cas échéant, un encadré l'annonce une seule fois (avec un code à scanner pour le téléchargement, et en précisant si VitaDB Downloader la propose déjà) et la ligne de version en bas de l'écran titre l'affiche en or jusqu'à la mise à jour. La question de l'activer vous est posée une fois ; L sur l'écran titre (ou le bouton MISES À JOUR) l'active ou la désactive aussi.
+- Conseils à l'écran (Prompts) : COMPLET affiche des explications didactiques au-dessus du tableau de bord (comment s'amarrer manuellement, comment échapper à une interdiction) et rappelle les touches de répartition d'énergie ; COURT ne conserve que la fonction directe de chaque touche.
+- Compteur de FPS, Manuel du pilote, et Sauvegarder, Sauvegarder et revenir au titre (pour changer de profil ; appuyez deux fois sur Cross), Sauvegarder et quitter ou Quitter.
+
+L'onglet HUD et Ciblage regroupe le HUD de combat incurvé, la liste des contacts, la transparence des panneaux d'interface (liste des contacts, fenêtre radio et boîte d'aide), les panneaux de cartes et les bavardages des pilotes à gauche. À droite : Ciblage auto (LE PLUS PROCHE, MENACE ou ESCADRE, voir Combat), Bouton filtre (affiche ou masque le bouton FILTRE à côté de CAM), Suivi automatique et Couleurs de verrouillage.
+
+Vous avez rencontré un bug ou vous avez une suggestion ? Le bouton ambre SIGNALER UN BUG OU UNE IDÉE sur chaque onglet (la dernière option en bas, ou touchez-le directement) affiche un QR code : scannez-le avec votre smartphone pour ouvrir directement le formulaire de rapport de bug ou de suggestion sur la page GitHub du jeu, avec votre numéro de version prérempli. Gauche/Droite bascule entre les deux formulaires. Un compte GitHub gratuit est requis, et les rapports sont publics.
+
+[img settings.png | The pause menu's Settings tab]
+[img handbook.png | The Pilot's Handbook in the game]
