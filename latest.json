@@ -2,5 +2,5 @@
   "version": "1.6.11",
   "title": "Beyond Elite",
   "url": "https://github.com/Syncriel/void-trader/releases/tag/v1.6.11",
-  "vitadb": false
+  "vitadb": true
 }
