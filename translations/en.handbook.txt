@@ -85,7 +85,7 @@ The galaxy map shows the hundred real stars nearest the Sun in 3D. Drag a finger
 
 ## Jumps and fuel
 
-A jump uses a light year of fuel for each light year travelled, and your tank sets how far one jump can go. Pick any star, even out of range: the map plans the shortest route through stops your ship can reach and draws it. Press Cross to plot the course. Each time you arrive, the map opens on your next stop. You can't jump with hostile ships within 6 km.
+Your drive sets how far one jump can go, and your tank holds fuel for four of those longest jumps, in tonnes. Shorter jumps burn much less: half your range costs a quarter as much, so a full tank usually lasts five to seven jumps. A full hold makes each jump burn a little more. The galaxy map shows the fuel in your tank and how many jumps of the chosen distance it covers, and a plotted route marks the stop where you'll need to refuel. Pick any star, even out of range: the map plans the shortest route through stops your ship can reach and draws it. Press Cross to plot the course. Each time you arrive, the map opens on your next stop. You can't jump with hostile ships within 6 km.
 
 ## Star details and filters
 
@@ -346,6 +346,7 @@ You choose your name when you start. Press Square while docked, or choose Comman
 - Trade, from trading profit: Penniless up to ELITE.
 - Explorer, from systems visited and distance flown: Aimless up to ELITE.
 - Above ELITE, each ladder goes on to APEX, PARAGON and MYTHIC: four times ELITE's mark for APEX, then six times that, then six times that again. ELITE and above show in gold.
+- Reaching ELITE or above on a ladder earns a short ceremony, played once you're docked, never in flight. Each rank is grander than the last, and when all three ladders reach MYTHIC you become SOVEREIGN. The STATUS tab shows an emblem for each one you've earned: choose one with Up/Down and press CROSS to watch it again. Settings > Rank ceremonies sets them FULL, SHORT or OFF.
 
 The Most Wanted tab lists the biggest bounties you've claimed. The FACTIONS tab shows your standing with the three powers and every minor faction you've dealt with (nearest first; Up/Down scrolls), and your unclaimed bounty vouchers. The NEWS tab is described under Powers and factions. The MESSAGES tab lists the last 16 messages, newest first, so you can read again any that passed too quickly. Rise in the Sirian Ascendancy's favour and it grants you a title: Squire at Cordial, Knight at Friendly, Baron at Allied.
 

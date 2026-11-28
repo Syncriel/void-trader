@@ -18,6 +18,7 @@ is not published, and pull requests aren't accepted.
 
 - The 100 nearest real star systems, each with its own economy, planets, gas giants, asteroid belts and
   six kinds of station, and a 3D galaxy map with filters, trade routes, a star finder and favourites.
+  A tank of fuel lasts several jumps, and a plotted route shows where you'll need to refuel.
 - A living galaxy: three rival powers and the independents, with factions in every system that fight
   wars, hold elections, boom, bust and expand week by week. Your missions and trade change who rules.
 - Conflict zones: in a system at war, fly to its battles, choose a side, fight alongside its ships and
@@ -33,6 +34,8 @@ is not published, and pull requests aren't accepted.
   chaff, power management, ranked pirates and police, interdictions, and mining with lasers and charges.
   In big fights, a hostiles-only filter and auto target by threat or by wing; stay out of a battle and
   you can still join it before it's decided.
+- Ranks for combat, trade and exploration, past ELITE to APEX, PARAGON and MYTHIC, each marked by a
+  ceremony once you dock; reach MYTHIC on all three to be SOVEREIGN.
 - 27 ships to buy, outfit, paint and name; a cockpit with holograms of your ship and your target.
 - Six languages (from v1.6.8): English, plus German, French, Spanish, Italian and Brazilian Portuguese
   as first drafts made with AI. Some lines will be clumsy or wrong: corrections and new languages are very

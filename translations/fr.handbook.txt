@@ -85,7 +85,7 @@ La carte galactique affiche en 3D les cent étoiles réelles les plus proches du
 
 ## Sauts et carburant
 
-Un saut consomme une année-lumière de carburant par année-lumière parcourue, et la capacité de votre réservoir détermine la portée maximale d'un saut. Choisissez n'importe quelle étoile, même hors de portée : la carte calcule le trajet le plus court en escales accessibles pour votre vaisseau et le trace. Appuyez sur Cross pour valider la route. À chaque arrivée, la carte s'ouvre sur votre prochaine étape. Il est impossible de sauter avec des vaisseaux hostiles à moins de 6 km.
+Votre moteur détermine la portée maximale d'un saut, et votre réservoir contient du carburant pour quatre de ces sauts les plus longs, en tonnes. Les sauts plus courts consomment beaucoup moins : la moitié de votre portée coûte quatre fois moins, si bien qu'un plein dure en général cinq à sept sauts. Une soute pleine fait consommer un peu plus à chaque saut. La carte galactique indique le carburant dans votre réservoir et le nombre de sauts de la distance choisie qu'il permet, et une route tracée signale l'escale où il faudra faire le plein. Choisissez n'importe quelle étoile, même hors de portée : la carte calcule le trajet le plus court en escales accessibles pour votre vaisseau et le trace. Appuyez sur Cross pour valider la route. À chaque arrivée, la carte s'ouvre sur votre prochaine étape. Il est impossible de sauter avec des vaisseaux hostiles à moins de 6 km.
 
 ## Détails des étoiles et filtres
 
